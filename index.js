@@ -32,11 +32,11 @@ var process_source_xml = function(res){
 
 //读取文件
 var load_data_file = function(){
-  var file_name = moment().tz("Asia/Shanghai").format() + '.log';
+  var file_name = moment().tz("Asia/Shanghai").format().slice(0, 10) + '.log';
   try{
     return fs.readFileSync(file_name, 'utf8');
   }catch(err){
-    log(err);
+    // log(err);
     return -1;
   }
 }
@@ -46,7 +46,7 @@ setInterval(function(){
     return res.text();
   }).then(function(res){
     var latest_data = process_source_xml(res);
-    var file_name = moment().tz("Asia/Shanghai").format() + '.log';
+    var file_name = moment().tz("Asia/Shanghai").format().slice(0, 10) + '.log';
 
     //TODO:读取当日文件
     var current_data = JSON.parse(load_data_file());
