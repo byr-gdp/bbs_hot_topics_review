@@ -18,3 +18,5 @@ format: time: msg
 
 
 ## done
+
+upload to vultr
