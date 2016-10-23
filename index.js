@@ -2,6 +2,8 @@ var fetch = require('node-fetch');
 var cheerio = require('cheerio');
 var fs = require('fs');
 var shell = require('shelljs');
+var moment = require('moment-timezone');
+
 var log = require('./utility/log');
 var compare = require('./utility/compare');
 
@@ -30,27 +32,13 @@ var process_source_xml = function(res){
 
 //读取文件
 var load_data_file = function(){
-  var file_name = new Date().toJSON().slice(0, 10) + '.log';
-  console.log('readfile:' + file_name);
+  var file_name = moment().tz("Asia/Shanghai").format() + '.log';
   try{
     return fs.readFileSync(file_name, 'utf8');
   }catch(err){
+    log(err);
     return -1;
   }
-  // fs.open(file_name, 'r', function(err, fd){
-  //   if (err) {
-  //     if (err.code === "ENOENT") {
-  //       console.error('myfile does not exist');
-  //       return -1;
-  //     } else {
-  //       throw err;
-  //     }
-  //   }
-  //   console.log(fd);
-  //   return fs.readFileSync(file_name, 'utf8');
-  //
-  //   // readMyData(fd);
-  // });
 }
 
 setInterval(function(){
@@ -58,28 +46,20 @@ setInterval(function(){
     return res.text();
   }).then(function(res){
     var latest_data = process_source_xml(res);
-    var file_name = new Date().toJSON().slice(0, 10) + '.log';
+    var file_name = moment().tz("Asia/Shanghai").format() + '.log';
 
     //TODO:读取当日文件
     var current_data = JSON.parse(load_data_file());
-    console.log('data:' + current_data);
     if(current_data === -1){
-      console.log('ready to writeFile');
-      // try{
-      //   fs.writeFileSync(file_name, JSON.stringify(latest_data, null, 4));
-      // }catch(err){
-      //   console.log("error:" + err);
-      // }
+      console.log('new file');
       fs.writeFile(file_name, JSON.stringify(latest_data, null, 4), function(err){
         if(err){
           console.log('error:' + err);
         }
-        console.log('log');
-        shell.echo('write successfully');
         shell.exec('git add .; git commit -m "' + new Date().toJSON().slice(0, 10) + '"; git push origin master;');
       });
     }else{
-      console.log('current_data:' + current_data);
+      console.log('the same file');
       var flag = compare(latest_data, current_data);
       if(flag){
         fs.writeFile(file_name, result, function(err){
@@ -87,13 +67,12 @@ setInterval(function(){
             //log err
           }
           // console.log("write successfully");
-          console.log('log');
-          shell.echo('write successfully');
-          shell.exec('git add .; git commit -m "' + new Date().toJSON().slice(0, 10) + '"; git push origin master;');
+          console.log('new change');
+          shell.exec('git add .; git commit -m "' + moment().tz("Asia/Shanghai").format() + '.log;' + '"; git push origin master;');
         })
       }else{
         //nothing to do
-        console.log("no changes found");
+        console.log('no changes');
       }
     }
   });

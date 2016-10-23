@@ -10,10 +10,8 @@ var compare = function(latest_data, current_data){
         if(md5(latest_data[i].description) === md5(current_data[j].description)){
           //相同无变化
           flag = true;
-          console.log('no changes');
           break;
         }else{
-          console.log('changed');
           //update
           return true;
         }
