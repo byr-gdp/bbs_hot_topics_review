@@ -1,10 +1,9 @@
 var fetch = require('node-fetch');
 var cheerio = require('cheerio');
 var fs = require('fs');
+var shell = require('shelljs');
 var log = require('./utility/log');
 var compare = require('./utility/compare');
-
-var cnt = 1;
 
 //处理原始xml数据，并生成待写入文件的字符串。
 var process_source_xml = function(res){
