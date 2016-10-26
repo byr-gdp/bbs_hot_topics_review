@@ -1,11 +1,16 @@
 var fs = require('fs');
+var moment = require('moment-timezone');
 
-var log = function(date, cnt, msg){
-    //TODO: 模板字符串
-    console.log(date + ': 第' + (cnt + 1) + '次请求 - ' + msg);
-    return (date + ': 第' + (cnt + 1) + '次请求 - ' + msg + '\n');
+var log = function(msg){
+  //content string
+  var content = moment().tz("Asia/Shanghai").format().slice(0, 19) + ': ' + msg + '\n';
+  var log_file_name = moment().tz("Asia/Shanghai").format().slice(0, 10) + '.log';
+  //appendFile
+  fs.appendFile(log_file_name, content, function(err){
+    if(err){
+      throw err;
+    }
+  });
 }
-
-// log(new Date(), 1, "success");
 
 module.exports = log;

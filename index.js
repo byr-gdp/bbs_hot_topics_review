@@ -32,11 +32,11 @@ var process_source_xml = function(res){
 
 //读取文件
 var load_data_file = function(){
-  var file_name = moment().tz("Asia/Shanghai").format().slice(0, 10) + '.log';
+  var file_name = moment().tz("Asia/Shanghai").format().slice(0, 10) + '.json';
   try{
     return fs.readFileSync(file_name, 'utf8');
   }catch(err){
-    // log(err);
+    log(err);
     return -1;
   }
 }
@@ -46,33 +46,30 @@ setInterval(function(){
     return res.text();
   }).then(function(res){
     var latest_data = process_source_xml(res);
-    var file_name = moment().tz("Asia/Shanghai").format().slice(0, 10) + '.log';
+    var file_name = moment().tz("Asia/Shanghai").format().slice(0, 10) + '.json';
 
     //TODO:读取当日文件
     var current_data = JSON.parse(load_data_file());
     if(current_data === -1){
-      console.log('new file');
+      log('读取文件失败，可能是该文件不存在');
       fs.writeFile(file_name, JSON.stringify(latest_data, null, 4), function(err){
         if(err){
-          console.log('error:' + err);
+          // console.log('error:' + err);
+          log(err);
         }
         shell.exec('git add .; git commit -m "' + new Date().toJSON().slice(0, 10) + '"; git push origin master;');
       });
     }else{
-      console.log('the same file');
+      log('读取文件成功');
       var flag = compare(latest_data, current_data);
       if(flag){
         fs.writeFile(file_name, result, function(err){
           if(err){
-            //log err
+            log(err)
           }
-          // console.log("write successfully");
-          console.log('new change');
+          log('十大话题发生变化');
           shell.exec('git add .; git commit -m "' + moment().tz("Asia/Shanghai").format() + '.log;' + '"; git push origin master;');
         })
-      }else{
-        //nothing to do
-        console.log('no changes');
       }
     }
   });
