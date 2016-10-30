@@ -1,2 +1,0 @@
-2016-10-30T00:00:01: Error: ENOENT: no such file or directory, open '2016-10-30.json'
-2016-10-30T00:00:01: 读取文件失败，可能是该文件不存在
