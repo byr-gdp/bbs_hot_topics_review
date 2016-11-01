@@ -62,7 +62,7 @@ setInterval(function(){
             log('写入文件失败：新文件');
             log(err);
           }
-          shell.exec('git add .; git commit -m "auto commit: new file ' + new Date().toJSON().slice(0, 10) + '"; git push origin master;');
+          shell.exec('git add .; git commit -m "auto commit: new file ' + moment().tz("Asia/Shanghai").format() + '"; git push origin master;');
         });
       }else{
         log('读取文件成功');
@@ -73,7 +73,7 @@ setInterval(function(){
               log('写入文件失败：主题发生变化');
               log(err)
             }
-            shell.exec('git add .; git commit -m "auto commit: new change ' + moment().tz("Asia/Shanghai").format() + '.log;' + '"; git push origin master;');
+            shell.exec('git add .; git commit -m "auto commit: new change ' + moment().tz("Asia/Shanghai").format() + '"; git push origin master;');
           })
         }
       }
