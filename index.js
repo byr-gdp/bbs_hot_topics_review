@@ -9,7 +9,6 @@ var compare = require('./utility/compare');
 var valid = require('./utility/valid');
 
 var data_dir = './data/';
-var log_dir = './logs/';
 
 //处理原始xml数据，并生成待写入文件的字符串。
 var process_source_xml = function(res){
@@ -81,4 +80,4 @@ setInterval(function(){
   }else{
     log('非记录时间：' + now);
   }
-}, 5000);
+}, 10 * 1000);
