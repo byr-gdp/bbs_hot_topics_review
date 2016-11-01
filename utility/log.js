@@ -1,7 +1,7 @@
 var fs = require('fs');
 var moment = require('moment-timezone');
 
-var log_dir = './log/';
+var log_dir = './logs/';
 
 var log = function(msg){
   //content string
