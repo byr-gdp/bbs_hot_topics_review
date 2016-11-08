@@ -16,12 +16,12 @@ var process_source_xml = function(res){
     xmlMode: true
   });
   var items = [];
-  $("item").each(function(i, e) {
-    var title = $(e).find("title").text().trim();
-    var link = $(e).find("link").text().trim();
-    var author = $(e).find("author").text().trim();
-    var pubDate = $(e).find("pubDate").text().trim();
-    var description = $(e).find("description").text().trim().replace(/&nbsp;/g, "");
+  $('item').each(function(i, e) {
+    var title = $(e).find('title').text().trim();
+    var link = $(e).find('link').text().trim();
+    var author = $(e).find('author').text().trim();
+    var pubDate = $(e).find('pubDate').text().trim();
+    var description = $(e).find('description').text().trim().replace(/&nbsp;/g, '');
     items.push({
       title: title,
       author: author,
@@ -31,7 +31,7 @@ var process_source_xml = function(res){
     });
   });
   return items;
-}
+};
 
 //读取文件
 var load_data_file = function(file_path){
@@ -42,13 +42,13 @@ var load_data_file = function(file_path){
     log(err);
     return -1;
   }
-}
+};
 
 setInterval(function(){
-  var now = moment().tz("Asia/Shanghai").format();
+  var now = moment().tz('Asia/Shanghai').format();
   if(valid(now)){
     var file_path = data_dir + now.slice(0, 10) + '.json';
-    fetch("https://bbs.byr.cn/rss/topten").then(function(res){
+    fetch('https://bbs.byr.cn/rss/topten').then(function(res){
       return res.text();
     }).then(function(res){
       var latest_data = process_source_xml(res);
@@ -61,19 +61,19 @@ setInterval(function(){
             log('写入文件失败：新文件');
             log(err);
           }
-          shell.exec('git add .; git commit -m "auto commit: new file ' + moment().tz("Asia/Shanghai").format() + '"; git push origin master;');
+          shell.exec('git add .; git commit -m "auto commit: new file ' + moment().tz('Asia/Shanghai').format() + '"; git push origin master;');
         });
       }else{
         log('读取文件成功');
         var flag = compare(latest_data, current_data);
         if(flag){
-          fs.writeFile(file_name, result, function(err){
+          fs.writeFile(file_path, latest_data, function(err){
             if(err){
               log('写入文件失败：主题发生变化');
-              log(err)
+              log(err);
             }
-            shell.exec('git add .; git commit -m "auto commit: new change ' + moment().tz("Asia/Shanghai").format() + '"; git push origin master;');
-          })
+            shell.exec('git add .; git commit -m "auto commit: new change ' + moment().tz('Asia/Shanghai').format() + '"; git push origin master;');
+          });
         }
       }
     });
