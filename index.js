@@ -67,7 +67,7 @@ setInterval(function(){
         log('读取文件成功');
         var flag = compare(latest_data, current_data);
         if(flag){
-          fs.writeFile(file_path, latest_data, function(err){
+          fs.writeFile(file_path, JSON.stringify(latest_data, null, 4), function(err){
             if(err){
               log('写入文件失败：主题发生变化');
               log(err);
