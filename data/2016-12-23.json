@@ -10,7 +10,7 @@
         "title": "【问题】首付1000万，在朝阳2-5环间的四居小区求推荐",
         "author": "paopao151",
         "link": "https://bbs.byr.cn/article/Home/100300",
-        "pubDate": "Thu, 22 Dec 2016 17:29:45 GMT",
+        "pubDate": "Thu, 22 Dec 2016 17:59:51 GMT",
         "description": "发信人: paopao151 (泡泡), 信区: Home<br/>标题: 【问题】首付1000万，在朝阳2-5环间的四居小区求推荐<br/>发信站: 北邮人论坛 (Thu Dec 22 11:56:52 2016), 站内<br/><br/><font size=\"6\">马上和女友到了谈婚论嫁的阶段，目前可以出的首付金额仅为1000万，还要留出余额以备不时之需，想购入朝阳5环内一四居，这样老人来也方便，海淀什么的太远就不考虑了，求论坛大神推荐。。。</font><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 61.135.194.*]<br/>"
     },
     {
@@ -28,6 +28,13 @@
         "description": "发信人: ducciefio (milanmilan006), 信区: Feeling<br/>标题: 有些事啊，就好像围城一样<br/>发信站: 北邮人论坛 (Thu Dec 22 21:42:36 2016), 站内<br/><br/><br /><a target=\"_blank\" href=\"/att/Feeling/2957463/368\"><img border=\"0\" title=\"WechatIMG10.jpeg\" src=\"/att/Feeling/2957463/368\" alt=\"WechatIMG10.jpeg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Feeling/2957463/517309\"><img border=\"0\" title=\"WechatIMG9.jpeg\" src=\"/att/Feeling/2957463/517309\" alt=\"WechatIMG9.jpeg\" class=\"resizeable\" /></a><br/>城外的人想进去<br/>城内的人想出来<br/>--<br/>※ 修改:·ducciefio 于 Dec 22 21:45:47 2016 修改本文·[FROM: 10.213.16.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.213.16.*]<br/>"
     },
     {
+        "title": "最近用DO的同学，各位还好吗？",
+        "author": "autulin",
+        "link": "https://bbs.byr.cn/article/BUPTNet/86258",
+        "pubDate": "Thu, 22 Dec 2016 18:01:00 GMT",
+        "description": "发信人: autulin (只身打码过草原), 信区: BUPTNet<br/>标题: 最近用DO的同学，各位还好吗？<br/>发信站: 北邮人论坛 (Thu Dec 22 21:28:20 2016), 站内<br/><br/>之前用的旧金山节点，用IPV6的SS可以正常看B站超清等<br/><br/>但是前几天开始发现速度慢了许多，B站超清已经不能看了，查了下SS客户端的日志，速度只有几十kb/s<br/><br/>一直以为是节点的问题，于是今天来换了好几个地方的节点，但是还是感觉很慢<br/><br/>然后在节点上测试分别从国内网站和国外网站下载东西发现<br/><br/><i>如果直接在VPS上下载东西，不管国内国外，都能达到几十MB/S的速度；而我就用电脑直接从VPS上取刚刚下载好的文件，只有几十k的速度</i><br/><br/>所以结论是：<b>我们连接国外VPS（IPV6）的速度被限制了</b><br/><br/>我想知道这是不是个案，我现在深度怀疑GFW新出了什么限速机制？或者教育网对国外IPV6做了手脚？但是我用IPV6的hosts看youtube 4k还是正常的啊，这就很奇怪了<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.210.100.*]<br/>"
+    },
+    {
         "title": "去东京工作是正确的选择么。。",
         "author": "keyjewel",
         "link": "https://bbs.byr.cn/article/WorkLife/1062078",
@@ -35,18 +42,18 @@
         "description": "发信人: keyjewel (keyjewel), 信区: WorkLife<br/>标题: 去东京工作是正确的选择么。。<br/>发信站: 北邮人论坛 (Thu Dec 22 10:45:41 2016), 站内<br/><br/>意外的拿到了indeed 东京的软件开发offer，突然不知道该怎么选了。。本来已经打定主意先拿个北京户口，搞一个小房子慢慢还贷，但是又想出去看看，不知道在东京的生活能不能适应，万一适应不了最后再回北京手里就啥也没有了，好被动。。。单身一人，要是适应不了国外的日子会不会就注孤生了。。。虽然工资比国内略微高一点，其实比起其他很高的offer也没有高多少，而且东京的生活成本也比较高，东京跳槽可选的it公司真是好少，不知道有没有前辈在日本工作过。。。求一些经验，不胜感激。。。<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 114.255.40.*]<br/>"
     },
     {
-        "title": "最近用DO的同学，各位还好吗？",
-        "author": "autulin",
-        "link": "https://bbs.byr.cn/article/BUPTNet/86258",
-        "pubDate": "Thu, 22 Dec 2016 17:05:39 GMT",
-        "description": "发信人: autulin (只身打码过草原), 信区: BUPTNet<br/>标题: 最近用DO的同学，各位还好吗？<br/>发信站: 北邮人论坛 (Thu Dec 22 21:28:20 2016), 站内<br/><br/>之前用的旧金山节点，用IPV6的SS可以正常看B站超清等<br/><br/>但是前几天开始发现速度慢了许多，B站超清已经不能看了，查了下SS客户端的日志，速度只有几十kb/s<br/><br/>一直以为是节点的问题，于是今天来换了好几个地方的节点，但是还是感觉很慢<br/><br/>然后在节点上测试分别从国内网站和国外网站下载东西发现<br/><br/><i>如果直接在VPS上下载东西，不管国内国外，都能达到几十MB/S的速度；而我就用电脑直接从VPS上取刚刚下载好的文件，只有几十k的速度</i><br/><br/>所以结论是：<b>我们连接国外VPS（IPV6）的速度被限制了</b><br/><br/>我想知道这是不是个案，我现在深度怀疑GFW新出了什么限速机制？或者教育网对国外IPV6做了手脚？但是我用IPV6的hosts看youtube 4k还是正常的啊，这就很奇怪了<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.210.100.*]<br/>"
-    },
-    {
         "title": "【心得】买到了火车票，给大家讲讲经验。",
         "author": "BC123",
         "link": "https://bbs.byr.cn/article/Xinjiang/166934",
         "pubDate": "Thu, 22 Dec 2016 17:23:35 GMT",
         "description": "发信人: BC123 (BC123), 信区: Xinjiang<br/>标题: 【心得】买到了火车票，给大家讲讲经验。<br/>发信站: 北邮人论坛 (Thu Dec 22 18:43:59 2016), 站内<br/><br/>如题，买到了1月20号T69的卧铺。给大家分享一下新技能。<br/><br/>用了智行火车票软件。<br/>昨天用这个软件预付款了。它说抢到了会发短信。<br/><br/>我是提前预付款的，今天早晨自己也在网页端刷着，发现完全无效，想着明天继续刷吧。然后就没报什么希望了。结果到了中午1点多一看手机，来短信通知买到票了。超级开心。<br/><br/>存在的问题：<br/>1.收到订票成功的短信之后，刷12306个人订票查询，发现没有订票信息。百度了一下说会有延迟。于是等到下午发现还是没有信息。<br/>2.之前预付款的时候，付的是成人票，因为百度了一下，只有12306官网有权限放学生票。于是，就放心的付了全款。<br/><br/>问题解答和大家需要注意避免的坑：<br/>1.我订票的时候，用的是智行火车票的账号，也就是我的手机号，而忘记了登录我的12306账号。<br/>2.由于第一条，所以我只能付全票，因为只有登录12306账号，才能买学生票。<br/><br/>心得：<br/>1.非常推荐大家用软件。早几年的时候，确实是用网页端刷票的，但是今年大家都用软件云端刷票，你不用的话，就各种被秒成渣。<br/><br/>2.记得在智行火车票软件上登录12306账号。<br/><br/>3.由于我已经人肉尝试了预付款，所以你们也不用担心被骗了。还是可以的。只是会额外收钱。但是考虑到买票的难易程度，额外收钱也就没什么了。毕竟如果同学帮你抢到票了，少不了要请吃饭的。一个意思。<br/><br/>最后，预祝大家都抢票成功。<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.108.41.*]<br/>"
+    },
+    {
+        "title": "【比较】offer求比较，联发科，融360，搜狐",
+        "author": "abcd12345678",
+        "link": "https://bbs.byr.cn/article/Job/1863882",
+        "pubDate": "Thu, 22 Dec 2016 18:00:26 GMT",
+        "description": "发信人: abcd12345678 (12345678), 信区: Job<br/>标题: 【比较】offer求比较，联发科，融360，搜狐<br/>发信站: 北邮人论坛 (Thu Dec 22 22:03:55 2016), 站内<br/><br/>楼主渣硕一枚，工作找了两个月，觉得快要吐血了，庆幸手里有了几个offer，不过还挺纠结的，求大神指点一二。<br/>联发科开发方向的，年薪19，无加班，有医保，户口不太确定。<br/>融360数据挖掘方向，年薪22.5，其他不定<br/>搜狐是搜狐焦点，目前是在实习，数据挖掘方向，有转正机会，也不知道工资怎么样，真心很纠结<br/>求大神指点，蟹蟹<br/>--<br/>※ 修改:·abcd12345678 于 Dec 23 00:43:14 2016 修改本文·[FROM: 219.143.205.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 219.143.205.*]<br/>"
     },
     {
         "title": "【问题】求mathtype破解版，给50元报酬",
@@ -61,12 +68,5 @@
         "link": "https://bbs.byr.cn/article/Talking/5879998",
         "pubDate": "Thu, 22 Dec 2016 16:54:22 GMT",
         "description": "发信人: zy1995 (透心凉), 信区: Talking<br/>标题: 快递小哥问买的是什么合适吗？<br/>发信站: 北邮人论坛 (Thu Dec 22 12:42:33 2016), 站内<br/><br/>总感觉这是隐私呀？被问这个感觉怪怪的<img src=\"/img/ubb/emc/26.gif\" alt=\"emc26\" style=\"display:inline;border-style:none\"/><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.202.0.*]<br/>"
-    },
-    {
-        "title": "强推，我们这一天",
-        "author": "crazyAxe",
-        "link": "https://bbs.byr.cn/article/TV/179300",
-        "pubDate": "Thu, 22 Dec 2016 16:50:27 GMT",
-        "description": "发信人: crazyAxe (xiguap), 信区: TV<br/>标题: 强推，我们这一天<br/>发信站: 北邮人论坛 (Thu Dec 22 23:01:49 2016), 站内<br/><br/>this is us , this is life<br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 117.136.38.*]<br/>"
     }
 ]
