@@ -14,18 +14,18 @@
         "description": "发信人: hitman007 (), 信区: WorkLife<br/>标题: 【2016年总结】逃离帝都的青椒<br/>发信站: 北邮人论坛 (Tue Dec 27 17:25:52 2016), 站内<br/><br/>15年9月底博士毕业，害怕压力而且不上进的我告别了待了10年的北邮，逃离了高房价地区，选择了重庆的985高校，10月底入职，今天刚好入职14个月<br/><br/><b>工作：</b><br/><br/>1.入职后的头两个月非常幸运，提前完成了第一个聘期（三年）一大半的科研考核要求，之后的大半年就放羊了(⊙﹏⊙)b<br/>2.同样非常幸运地中了首届博士后创新人才支持计划，下周开始就转成博士后了，工资比原来涨了不少，哈哈<br/>3.最大的收获应该是教学，第一次上讲台，问题不少，不过总体效果还不错，学生评教 94.33（满分95），附一张意见~<br/><br /><a target=\"_blank\" href=\"/att/WorkLife/1062867/1039\"><img border=\"0\" title=\"QQ截.png\" src=\"/att/WorkLife/1062867/1039\" alt=\"QQ截.png\" class=\"resizeable\" /></a><br/><br/><b>生活：</b><br/>1. 一个人到了一个完全陌生的城市，还是一个如此个性的城市，各方面都很新奇<br/>2. 2016年一共跑了7次全马，3次百公里越野，基本与15年持平<br/><br/><b>关于2017年：</b><br/>1. 稍微上进一点，各方面<br/>2. 稍微上心一点，某方面<br/>--<br/>※ 修改:·hitman007 于 Dec 27 17:26:13 2016 修改本文·[FROM: 2001:da8:c800:ad04:7861:6898:5615:b635]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 2001:da8:c800:ad04:7861:6898:5615:b635]<br/>"
     },
     {
-        "title": "想问一下北京运营商的情况",
-        "author": "bluemist",
-        "link": "https://bbs.byr.cn/article/Job/1865058",
-        "pubDate": "Thu, 29 Dec 2016 22:20:53 GMT",
-        "description": "发信人: bluemist (bluemist), 信区: Job<br/>标题: 想问一下北京运营商的情况<br/>发信站: 北邮人论坛 (Fri Dec 30 00:20:57 2016), 站内<br/><br/>联通已经谈过了；移动体检了，得等消息；电信也要去测评什么的；进度不一样，只能先做决定去不去联通。<br/>想问一下三大运营商中哪个好一点，移动的待遇以及户口解决情况如何？好和联通做个比较，有了解的同学希望能给点参考意见，谢谢！<br/>--<br/>※ 修改:·bluemist 于 Dec 30 00:28:31 2016 修改本文·[FROM: 123.124.23.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 123.124.23.*]<br/>"
-    },
-    {
         "title": "[渣分享]自己写的微机原理考点",
         "author": "bdyzhy9527",
         "link": "https://bbs.byr.cn/article/StudyShare/173912",
         "pubDate": "Thu, 29 Dec 2016 17:25:59 GMT",
         "description": "发信人: bdyzhy9527 (造轮子の), 信区: StudyShare<br/>标题: [渣分享]自己写的微机原理考点<br/>发信站: 北邮人论坛 (Fri Dec 30 00:08:45 2016), 站内<br/><br/>学渣刷完微原卷子之后总结考的多的部分，没写到的就是我刷题没见到过的，欢迎大家指正和补充<br/><br/>初衷是为了写写markdown和加深记忆，丑点或者渣点大神放过就好<br/><br/>有很多地方没有写明白，比如：中断数量这种，是为了以后打印出来自己填的，加深记忆<br/><br/>白天都在复习，一晚上写一章的，大概这个速度，周末可能会把计网的整理出来<br/><br/>还是想说，求别喷<img src=\"/img/ubb/emb/10.gif\" alt=\"emb10\" style=\"display:inline;border-style:none\"/><br/><br/>------------------------------------------------------------<br/><br/>打==的是强调的(我实在是不知道论坛md怎么改颜色)<br/><br/>打++的是下划线，凑活看吧我实在懒得改了...<br/><br/>------------------------------------------------------------<br/><pre class=\"markdown\">### 第四章 程序设计\n\n### 第五章 系统总线\n\n### 第六章 存储器\n\n### 第七章 外设数据传输\n\n### 第八章 中断\n1. IF(STI CLI) TF\n2. 中断数量、物理地址、类型号对应的物理地址\n3. 两类硬中断的区分(NMI INTR)\n4. 软中断(INT n)\n5. 中断优先级\n    * INT 0\n    * INT n\n    * INTO(溢出中断)\n    * NMI\n    * INTR\n    * 单步中断(TF)\n6. 写中断向量表\n    * 直接写入 (MOV BX,4N)\n    * DOS功能\n        * 写中断 25H AL,DS,DX\n        * 读中断 35H AL,ES,BX\n7. 中断过程\n    * 中断申请(NMI, INTR)\n    * 中断响应\n        * CPU取得中断类型号\n            * 软中断、NMI 直接提取\n            * INTR 外部读取(IRR)\n        * 获取中断号后(___CPU自动执行___)\n            * FR入栈\n            * 关中断(IF,TF)\n            * 断点地址保存(CS,IP)\n            * 查中断向量表\n    * 中断子程序\n        * PROC FAR\n        * 必须做的事\n            * 保护/恢复现场(AX,DS,DX)\n            * ___发EOI命令___\n                * ```MOV AL,20H```\n                * ```OUT 8259A写地址,AL```\n            * 中断返回(IRET)\n        * 时间尽可能短\n    * 中断返回\n        * IRET 中断返回\n            * IP&lt;-(SP),SP+2\n            * CS&lt;-(SP),SP+2\n            * FR&lt;-(SP),SP+2\n        * RETF 段间调用 IP+CS 同上\n        * RET  段内调用\n8. 8259A结构\n    * ISR 中断服务\n    * IRR 中断请求\n    * PR  优先级分析器\n    * IMR INTR屏蔽器(1有效)\n    * ==A0寻址，注意A0=0时为写入命令(EOI)==\n9. ==8259A信号==\n    * 中断开始\n        * 外设向IR0-IR7发信号\n        * 判断IMR -&gt; 加入IRR (INT Req Reg)\n        * 清IRR，置ISR\n        * ==CPU发送++INTA++响应中断==,8259A传送中断号\n    * 中断结束\n        * CPU发送==第二个INTA==,清ISR(之前考过两个INTA的作用)\n10. 8259A工作方式\n    * 确定中断类型号\n        * 高5位固定 + 低3位可变\n    * 中断结束方式\n        * 自动结束\n            * 发INTA\n        * 非自动结束\n            * 发EOI\n11. 8259A级联\n    * 8X8 最多64个中断源(CAS0-CAS2)\n    * 非自动中断结束 从8259A发送2条EOI 主8259A发送1条EOI\n12. ==最后 写完中断向量表之后加上STI！！！==\n\n### 第九章 接口技术\n* 8255并行接口\n    * 方式1\n    * 方式2 ++STB++/++OBF++ IBF/++ACK++ INTR INTE\n* 8253定时器\n    * 方式2\n    * 方式3\n* ADC0809\n    * 寻址方式\n    * 找入口地址\n* 异步通信 （p232）\n* ADC0809\n\n==控制字不用背，注意怎么寻址(A0A1)==\n\n==第九章直接对着书写大题，别的不用管==</pre><br/>--<br/>※ 修改:·bdyzhy9527 于 Dec 30 00:20:46 2016 修改本文·[FROM: 10.206.32.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.206.32.*]<br/>"
+    },
+    {
+        "title": "想问一下北京运营商的情况",
+        "author": "bluemist",
+        "link": "https://bbs.byr.cn/article/Job/1865058",
+        "pubDate": "Thu, 29 Dec 2016 22:20:53 GMT",
+        "description": "发信人: bluemist (bluemist), 信区: Job<br/>标题: 想问一下北京运营商的情况<br/>发信站: 北邮人论坛 (Fri Dec 30 00:20:57 2016), 站内<br/><br/>联通已经谈过了；移动体检了，得等消息；电信也要去测评什么的；进度不一样，只能先做决定去不去联通。<br/>想问一下三大运营商中哪个好一点，移动的待遇以及户口解决情况如何？好和联通做个比较，有了解的同学希望能给点参考意见，谢谢！<br/>--<br/>※ 修改:·bluemist 于 Dec 30 00:28:31 2016 修改本文·[FROM: 123.124.23.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 123.124.23.*]<br/>"
     },
     {
         "title": "【王道】征女朋友，陪你一起跨年！",
@@ -42,6 +42,13 @@
         "description": "发信人: guitarmega (李老湿), 信区: Music<br/>标题: 大声说出你听过的最难听的歌<br/>发信站: 北邮人论坛 (Thu Dec 29 07:04:48 2016), 站内<br/><br/>有人吗<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 1.180.212.*]<br/>"
     },
     {
+        "title": "zc199102报道帖",
+        "author": "zc199102",
+        "link": "https://bbs.byr.cn/article/NorthEast/899937",
+        "pubDate": "Thu, 29 Dec 2016 22:56:59 GMT",
+        "description": "发信人: zc199102 (超byr), 信区: NorthEast<br/>标题: zc199102报道帖<br/>发信站: 北邮人论坛 (Thu Mar 27 13:03:08 2014), 站内<br/><br/><font color=\"#D2691E\">★zc199102报道★</font> <br/><br/> 大家好，我是<font color=\"#FF7F50\">zc199102</font>，来自<font color=\"#DC143C\">吉林长春</font>的汉纸<br/> 我毕业于<font color=\"#B22222\">长春市150中学</font> 我于10年考入<font color=\"#8B0000\">北邮信息工程</font>（本科）<br/> 现在在<font color=\"#228B22\">电子科学与技术</font>专业读研零 <br/> <br/> 我想说：<font color=\"#800000\">我大东北帝国的汉纸最man、妹纸最beautiful！！</font><br/>--——————————————————————————————————————————<br/>※ 修改:·zc199102 于 Nov2 19:40:31 2016 修改本文·[FROM: 2001:da8:215:cad3:5fb:5f58:4a4a:*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.103.21.*]<br/>"
+    },
+    {
         "title": "有没有家在石家庄，而且即将毕业留在北京的单身姑娘？我想毕业",
         "author": "duerbugu",
         "link": "https://bbs.byr.cn/article/Hebei/246524",
@@ -49,24 +56,17 @@
         "description": "发信人: duerbugu (独而不孤), 信区: Hebei<br/>标题: 有没有家在石家庄，而且即将毕业留在北京的单身姑娘？我想毕业前<br/>发信站: 北邮人论坛 (Wed Dec 28 14:52:28 2016), 站内<br/><br/><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.30.134.*]<br/>"
     },
     {
-        "title": "zc199102报道帖",
-        "author": "zc199102",
-        "link": "https://bbs.byr.cn/article/NorthEast/899937",
-        "pubDate": "Thu, 29 Dec 2016 18:17:02 GMT",
-        "description": "发信人: zc199102 (超byr), 信区: NorthEast<br/>标题: zc199102报道帖<br/>发信站: 北邮人论坛 (Thu Mar 27 13:03:08 2014), 站内<br/><br/><font color=\"#D2691E\">★zc199102报道★</font> <br/><br/> 大家好，我是<font color=\"#FF7F50\">zc199102</font>，来自<font color=\"#DC143C\">吉林长春</font>的汉纸<br/> 我毕业于<font color=\"#B22222\">长春市150中学</font> 我于10年考入<font color=\"#8B0000\">北邮信息工程</font>（本科）<br/> 现在在<font color=\"#228B22\">电子科学与技术</font>专业读研零 <br/> <br/> 我想说：<font color=\"#800000\">我大东北帝国的汉纸最man、妹纸最beautiful！！</font><br/>--——————————————————————————————————————————<br/>※ 修改:·zc199102 于 Nov2 19:40:31 2016 修改本文·[FROM: 2001:da8:215:cad3:5fb:5f58:4a4a:*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.103.21.*]<br/>"
-    },
-    {
-        "title": "Photo by 麦片 - Summary of Year 2016【多图】",
-        "author": "pyxply",
-        "link": "https://bbs.byr.cn/article/Travel/133308",
-        "pubDate": "Thu, 29 Dec 2016 16:13:22 GMT",
-        "description": "发信人: pyxply (放弃治疗的麦片同学‖其实我叫王大锤), 信区: Travel<br/>标题: Photo by 麦片 - Summary of Year 2016【多图】<br/>发信站: 北邮人论坛 (Wed Dec 28 23:02:08 2016), 站内<br/><br/><font size=\"4\">【引子】</font><br/><br/><br /><font color=\"blue\">附件(4MB)</font><a href=\"/att/Travel/133308/1027\" target=\"_blank\">贰佰_-_嘿，抬头！.mp3(在新窗口打开)</a><br /><br /><div class=\"a-audio\" _src=\"/att/Travel/133308/1027\"></div><br/><br/><i>他总是一个人过着，<br/>没事就听一听安静的歌，<br/>在每一个孤独的夜晚，<br/>他总是喝多了酒，<br/>有时候他会想起那些远在远方的老朋友，<br/>也经常想起那些曾经的爱情和他一起牵过的手，<br/>他不会像大部分的男人一样过着平庸的生活，<br/>在每个灿烂的星空下，<br/>他总说，<br/>嘿，抬头！<br/><br/>--《嘿，抬头》</i><br/><br/>转眼之间，2016就要这么过去了，好像记忆还是2015一样，上次写总结也差不多是一年前的这个时间。这一年经历了很多的事情，换工作，搬家，总之心态经历了很多的起伏，也构成了我这一年算不上精彩的时光。<br/>这一年，新添了蔡司的28 F2，购置了x100t和GR II作为自己的备机，也让我有了更多的拍摄选择。<br/><br/>--<br/>※ 修改:·pyxply 于 Dec 28 23:58:53 2016 修改本文·[FROM: 103.77.56.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 103.77.56.*]<br/>"
-    },
-    {
         "title": "一句话说明你考研的辛酸",
         "author": "diqing2333",
         "link": "https://bbs.byr.cn/article/AimGraduate/1088538",
-        "pubDate": "Thu, 29 Dec 2016 21:20:13 GMT",
+        "pubDate": "Thu, 29 Dec 2016 22:33:11 GMT",
         "description": "发信人: diqing2333 (小飞飞), 信区: AimGraduate<br/>标题: 一句话说明你考研的辛酸<br/>发信站: 北邮人论坛 (Tue Dec 27 18:57:00 2016), 站内<br/><br/>2017年考研已经过去了，考研是一个甘苦自知的过程，若不曾走过，又怎会懂得，那么就用一句话来说说你考研时所付出的努力吧！<img src=\"/img/ubb/em/4.gif\" alt=\"em4\" style=\"display:inline;border-style:none\"/><img src=\"/img/ubb/em/4.gif\" alt=\"em4\" style=\"display:inline;border-style:none\"/><img src=\"/img/ubb/em/4.gif\" alt=\"em4\" style=\"display:inline;border-style:none\"/><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.104.11.*]<br/>"
+    },
+    {
+        "title": "求大神帮看一下戴尔(DELL)XPS13-9360-R1609",
+        "author": "a543151514",
+        "link": "https://bbs.byr.cn/article/Notebook/169328",
+        "pubDate": "Thu, 29 Dec 2016 16:25:52 GMT",
+        "description": "发信人: a543151514 (时光), 信区: Notebook<br/>标题: 求大神帮看一下戴尔(DELL)XPS13-9360-R1609<br/>发信站: 北邮人论坛 (Fri Dec 30 00:05:08 2016), 站内<br/><br/>酷睿双核高频3.1i57200u 8g内存256固态硬盘 集显hd 620 京东价格7600 1.29KG13寸金属质感看起来还挺爽的刚刚结束考研想买一台研究生开发用的电脑基本不会玩游戏请大家看看是否合适<br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 106.121.10.*]<br/>"
     }
 ]
