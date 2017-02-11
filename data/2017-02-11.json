@@ -24,8 +24,15 @@
         "title": "玩个歌词接龙吧，看能盖多高",
         "author": "xhywxtt",
         "link": "https://bbs.byr.cn/article/Talking/5889476",
-        "pubDate": "Sat, 11 Feb 2017 03:07:16 GMT",
+        "pubDate": "Sat, 11 Feb 2017 03:53:03 GMT",
         "description": "发信人: xhywxtt (妙音天女), 信区: Talking<br/>标题: 玩个歌词接龙吧，看能盖多高<br/>发信站: 北邮人论坛 (Tue Feb7 00:20:55 2017), 站内<br/><br/>楼主先来：啊朋友再见，啊朋友再见，啊朋友再见吧再见吧再见吧～<br/><br/>规则：2楼接的歌词必须以ba开始（包括bā bá bǎ bà）<br/>-----------<br/><br/>谢谢大家支持，一大早就上十大了<img src=\"/img/ubb/ema/3.gif\" alt=\"ema3\" style=\"display:inline;border-style:none\"/><br/>※ 修改:·xhywxtt 于 Feb7 16:16:28 2017 修改本文·[FROM: 61.135.169.*]<br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 1.180.212.*]<br/>"
+    },
+    {
+        "title": "领导是不是都喜欢别人按照他说的去做",
+        "author": "birds",
+        "link": "https://bbs.byr.cn/article/WorkLife/1068001",
+        "pubDate": "Sat, 11 Feb 2017 03:58:22 GMT",
+        "description": "发信人: birds (wind), 信区: WorkLife<br/>标题: 领导是不是都喜欢别人按照他说的去做<br/>发信站: 北邮人论坛 (Sat Feb 11 08:27:58 2017), 站内<br/><br/>可能因为没有按照领导说的去做，直觉领导不喜欢自己，要不要transfer去别的部门，正好换个方向。<br/><br/>没有按照领导做的事也算不上工作上的事情，<br/>1）就是每周有一天晚上组里去外面打球，而我都婉拒了，平时上班实在是累得不行了，而且还要跑去外面打球，宁愿休息。<br/>2）可能平时跟他说话，没有当孙子吧。<br/>3）领导给组里人分享了一些资料视频，我没有看<br/>4）刚来的时候，领导串掇着给介绍对象，可能开玩笑的，我没有理会，实在觉得不熟很尴尬<br/>--<br/>※ 修改:·birds 于 Feb 11 11:32:35 2017 修改本文·[FROM: 221.216.145.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 221.216.145.*]<br/>"
     },
     {
         "title": "元宵节快乐",
@@ -35,11 +42,11 @@
         "description": "发信人: guitarmega (李老湿), 信区: Picture<br/>标题: 元宵节快乐<br/>发信站: 北邮人论坛 (Sat Feb 11 08:06:26 2017), 站内<br/><br/><br /><a target=\"_blank\" href=\"/att/Picture/3171988/219\"><img border=\"0\" title=\"large.jpg\" src=\"/att/Picture/3171988/219\" alt=\"large.jpg\" class=\"resizeable\" /></a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 1.180.212.*]<br/><br/>"
     },
     {
-        "title": "领导是不是都喜欢别人按照他说的去做",
-        "author": "birds",
-        "link": "https://bbs.byr.cn/article/WorkLife/1068001",
-        "pubDate": "Sat, 11 Feb 2017 03:23:36 GMT",
-        "description": "发信人: birds (wind), 信区: WorkLife<br/>标题: 领导是不是都喜欢别人按照他说的去做<br/>发信站: 北邮人论坛 (Sat Feb 11 08:27:58 2017), 站内<br/><br/>可能因为没有按照领导说的去做，直觉领导不喜欢自己，要不要transfer去别的部门，正好换个方向。<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 221.216.145.*]<br/>"
+        "title": "有高度散光的人么，求交流",
+        "author": "cbw3011474",
+        "link": "https://bbs.byr.cn/article/Health/202596",
+        "pubDate": "Sat, 11 Feb 2017 03:50:03 GMT",
+        "description": "发信人: cbw3011474 (wbc), 信区: Health<br/>标题: 有高度散光的人么，求交流<br/>发信站: 北邮人论坛 (Tue Feb7 11:41:42 2017), 站内<br/><br/><br/>--<br/><br/>※ 来源:·北邮人论坛手机版 <a target=\"_blank\" href=\"http://m.byr.cn\">http://m.byr.cn</a>·[FROM: 101.226.102.*]<br/>"
     },
     {
         "title": "请教大家，如何设计一个读文件，c语言变量查找算法？",
@@ -49,24 +56,17 @@
         "description": "发信人: andywang0001 (卡卡球), 信区: CPP<br/>标题: 请教大家，如何设计一个读文件，c语言变量查找算法？<br/>发信站: 北邮人论坛 (Fri Feb 10 11:14:51 2017), 站内<br/><br/>现在我们想用java写一款c语言检查工具，读文件方式<br/>然后想设计个算法，遍历每一行，通过正则表达式匹配，记录每个变量的类型和位置？<br/>简直没有头绪啊，，<br/>求教各位大牛<br/>--<br/>add:昨天看了下yacc和lex，其实掌握词法分析和语法分析只是第一步，我们要开发的IDE工具主要是能够自定义规则，类似于lint工具，所以后续还得掌握用什么数据结构保存数据，然后如何定义这些规则，不知道哪里有相关的书籍啊<br/>※ 修改:·andywang0001 于 Feb 11 09:10:28 2017 修改本文·[FROM: 222.66.26.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 222.66.26.*]<br/>"
     },
     {
-        "title": "有高度散光的人么，求交流",
-        "author": "cbw3011474",
-        "link": "https://bbs.byr.cn/article/Health/202596",
-        "pubDate": "Sat, 11 Feb 2017 02:54:38 GMT",
-        "description": "发信人: cbw3011474 (wbc), 信区: Health<br/>标题: 有高度散光的人么，求交流<br/>发信站: 北邮人论坛 (Tue Feb7 11:41:42 2017), 站内<br/><br/><br/>--<br/><br/>※ 来源:·北邮人论坛手机版 <a target=\"_blank\" href=\"http://m.byr.cn\">http://m.byr.cn</a>·[FROM: 101.226.102.*]<br/>"
+        "title": "求18fall的群！！！",
+        "author": "Shuqiaochu",
+        "link": "https://bbs.byr.cn/article/GoAbroad/350434",
+        "pubDate": "Sat, 11 Feb 2017 03:49:04 GMT",
+        "description": "发信人: Shuqiaochu (Aria), 信区: GoAbroad<br/>标题: 求18fall的群！！！<br/>发信站: 北邮人论坛 (Fri Jan 27 06:41:24 2017), 站内<br/><br/>寒假在准备GRE 大三小白一个感觉好无助 有没有一起DIY的小伙伴啊<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 27.27.175.*]<br/>"
     },
     {
         "title": "【问题】代理Ip",
         "author": "banyuexian",
         "link": "https://bbs.byr.cn/article/Python/17287",
-        "pubDate": "Sat, 11 Feb 2017 03:03:06 GMT",
+        "pubDate": "Sat, 11 Feb 2017 03:47:12 GMT",
         "description": "发信人: banyuexian (半月弦), 信区: Python<br/>标题: 【问题】代理Ip<br/>发信站: 北邮人论坛 (Sat Feb 11 08:53:45 2017), 站内<br/><br/>哪位大神能给个靠谱的代理ip，免费的，或者是靠谱的代理ip查询网站，，，，百度出来的都都不靠谱。。。。先行谢过！<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.108.36.*]<br/>"
-    },
-    {
-        "title": "有17计4组的复试群吗？我需要组织",
-        "author": "xg631227288",
-        "link": "https://bbs.byr.cn/article/AimGraduate/1090487",
-        "pubDate": "Sat, 11 Feb 2017 01:56:30 GMT",
-        "description": "发信人: xg631227288 (Devil_Z), 信区: AimGraduate<br/>标题: 有17计4组的复试群吗？我需要组织<br/>发信站: 北邮人论坛 (Sat Feb 11 00:58:07 2017), 站内<br/><br/>快出分了<br/>我快要炸了<img src=\"/img/ubb/ema/1.gif\" alt=\"ema1\" style=\"display:inline;border-style:none\"/><br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 223.104.185.*]<br/>"
     }
 ]
