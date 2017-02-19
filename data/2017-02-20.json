@@ -35,18 +35,18 @@
         "description": "发信人: xf123 (【意涵团】0 offer怎么破), 信区: WorkLife<br/>标题: 银行IT能否转业务？求指教<br/>发信站: 北邮人论坛 (Sat Feb 18 23:43:38 2017), 站内<br/><br/>最近在民生总行科技部实习，临近毕业考核转正。分到交易产品中心（涉及理财产品，基金，贵金属等，目前做托管），虽说技术外包，但跟着师傅真能学到不少东西，平时工作业务跟技术各占一半。想问下从事银行IT的过来人给分析一下我这个岗位未来转业务部门的可能性，银行it真的可以转业务么？求大神指教，楼主微信493605033<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 118.228.192.*]<br/>"
     },
     {
-        "title": "【问题】想出个留西装头的攻略不知道大家感兴趣不",
-        "author": "Frbupt",
-        "link": "https://bbs.byr.cn/article/Talking/5891407",
-        "pubDate": "Sun, 19 Feb 2017 16:38:30 GMT",
-        "description": "发信人: Frbupt (【意涵团】方糖), 信区: Talking<br/>标题: 【问题】想出个留西装头的攻略不知道大家感兴趣不<br/>发信站: 北邮人论坛 (Sun Feb 19 00:55:35 2017), 站内<br/><br/>如题，刚留成西装头，不知道我邮的男生对这个感不感兴趣呢，要是有人感兴趣就最近写一个适用于北邮的留背头攻略发来给大家参考<img src=\"/img/ubb/emc/3.gif\" alt=\"emc3\" style=\"display:inline;border-style:none\"/><br/>--<br/>想问一下talking版怎么贴图呢<br/>※ 修改:·Frbupt 于 Feb 20 02:32:10 2017 修改本文·[FROM: 60.220.62.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 60.220.69.*]<br/>"
-    },
-    {
         "title": "北邮考研机试问题",
         "author": "Mrain",
         "link": "https://bbs.byr.cn/article/AimGraduate/1092659",
         "pubDate": "Sun, 19 Feb 2017 16:28:14 GMT",
         "description": "发信人: Mrain (Mrain), 信区: AimGraduate<br/>标题: 北邮考研机试问题<br/>发信站: 北邮人论坛 (Sun Feb 19 19:35:49 2017), 站内<br/><br/>大家好，我想咨询一下，北邮考研机试，Java编程环境是什么样子的，有自动代码提示功能吗？提交信息后如果出现错误，会把异常信息也告诉你吗？谢谢<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 123.114.58.*]<br/>"
+    },
+    {
+        "title": "【问题】想出个留西装头的攻略不知道大家感兴趣不",
+        "author": "Frbupt",
+        "link": "https://bbs.byr.cn/article/Talking/5891407",
+        "pubDate": "Sun, 19 Feb 2017 16:38:30 GMT",
+        "description": "发信人: Frbupt (【意涵团】方糖), 信区: Talking<br/>标题: 【问题】想出个留西装头的攻略不知道大家感兴趣不<br/>发信站: 北邮人论坛 (Sun Feb 19 00:55:35 2017), 站内<br/><br/>如题，刚留成西装头，不知道我邮的男生对这个感不感兴趣呢，要是有人感兴趣就最近写一个适用于北邮的留背头攻略发来给大家参考<img src=\"/img/ubb/emc/3.gif\" alt=\"emc3\" style=\"display:inline;border-style:none\"/><br/>--<br/>想问一下talking版怎么贴图呢<br/>※ 修改:·Frbupt 于 Feb 20 02:32:10 2017 修改本文·[FROM: 60.220.62.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 60.220.69.*]<br/>"
     },
     {
         "title": "学长学姐啥时候开始刷题的，研二现在开始刷是不是已经晚了",
@@ -63,10 +63,10 @@
         "description": "发信人: Starsunny (Starsunny), 信区: Circuit<br/>标题: 求大神指点这10几行代码实现了什么算法<br/>发信站: 北邮人论坛 (Sun Feb 19 20:28:14 2017), 站内<br/><br/>verilog语言，代码如下：<br/><br/>module ones_comp_add(<br/>inputlogic [7:0] A, B,<br/>output logic [7:0] C);<br/><br/>logic [8:0] A_int, B_int, C_int;<br/><br/>assign A_int = {1'b0, A};<br/>assign B_int = {1'b0, B};<br/>assign C_int = A_int + B_int;<br/>assign C = {7'h0, C_int[8]} + C_int[7:0];<br/><br/>endmodule: ones_comp_add<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 1.180.212.*]<br/>"
     },
     {
-        "title": "你觉得哪个星座比较容易出渣男",
-        "author": "liumengxuan",
-        "link": "https://bbs.byr.cn/article/Constellations/493622",
-        "pubDate": "Sun, 19 Feb 2017 17:30:22 GMT",
-        "description": "发信人: liumengxuan (sunshinexuan), 信区: Constellations<br/>标题: 你觉得哪个星座比较容易出渣男<br/>发信站: 北邮人论坛 (Tue Feb7 20:15:35 2017), 站内<br/><br/>我觉得天秤渣男好像稍微多点…<br/><br/>ps，我没有天秤座男朋友，不是吐槽前男友系列。<br/><br/><a target=\"_blank\" href=\"http://guiyou.wangx.in\">发自「贵邮」</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 116.117.153.*]<br/>"
+        "title": "好久没来，晒大锤",
+        "author": "Cuckoo",
+        "link": "https://bbs.byr.cn/article/Pet/144786",
+        "pubDate": "Sun, 19 Feb 2017 17:15:29 GMT",
+        "description": "发信人: Cuckoo (月饼), 信区: Pet<br/>标题: 好久没来，晒大锤<br/>发信站: 北邮人论坛 (Sun Feb 19 23:37:49 2017), 站内<br/><br/>如题，好久没来了，晒晒大锤<br/><br/><a target=\"_blank\" href=\"http://guiyou.wangx.in\">发自「贵邮」</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 111.199.189.*]<br/><br/><br /><a target=\"_blank\" href=\"/att/Pet/144786/272\"><img border=\"0\" title=\"photo_1487518668_1.jpg\" src=\"/att/Pet/144786/272\" alt=\"photo_1487518668_1.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Pet/144786/351988\"><img border=\"0\" title=\"photo_1487518668_4.jpg\" src=\"/att/Pet/144786/351988\" alt=\"photo_1487518668_4.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Pet/144786/477054\"><img border=\"0\" title=\"photo_1487518668_3.jpg\" src=\"/att/Pet/144786/477054\" alt=\"photo_1487518668_3.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Pet/144786/795858\"><img border=\"0\" title=\"photo_1487518668_5.jpg\" src=\"/att/Pet/144786/795858\" alt=\"photo_1487518668_5.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Pet/144786/955823\"><img border=\"0\" title=\"photo_1487518668_2.jpg\" src=\"/att/Pet/144786/955823\" alt=\"photo_1487518668_2.jpg\" class=\"resizeable\" /></a>"
     }
 ]
