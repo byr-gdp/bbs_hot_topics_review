@@ -38,7 +38,7 @@
         "title": "【问题】该不该去美国?",
         "author": "qazwsx123",
         "link": "https://bbs.byr.cn/article/WorkLife/1070305",
-        "pubDate": "Mon, 06 Mar 2017 21:08:22 GMT",
+        "pubDate": "Mon, 06 Mar 2017 22:00:56 GMT",
         "description": "发信人: qazwsx123 (memeda233), 信区: WorkLife<br/>标题: 【问题】该不该去美国?<br/>发信站: 北邮人论坛 (Mon Mar6 19:45:56 2017), 站内<br/><br/>大家好，目前人生面临连个选择，不知道该怎样办。<br/>搬砖一年多，在一家外企，小公司。<br/>已经结婚，老婆从事销售类工作，非CS专业。<br/>经济上每个月需要还贷款13k左右。<br/><br/>选择1：<br/>1. transfer到美国，做global的项目，老婆去读phd或者工作或者全职看家，offer还没有发。<br/>选择2：<br/>2. 国内今年引进了一个很赚钱的项目，让我作为第三个项目成员去发展。<br/><br/>目前的问题是：<br/>1. 要不要去美国发展？<br/>2. 如果去，经济上可以同时cover北京的贷款吗，过的下去么？<br/>3. 美国L2好找工作么？<br/>4. 读PHD的压力大妈？<br/><br/>希望大家能够给出真诚的建议和意见，谢谢大家！<br/><br/><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 114.249.247.*]<br/>"
     },
     {
@@ -56,17 +56,17 @@
         "description": "发信人: Nabryant (1874), 信区: Gymnasium<br/>标题: 求助：膝盖屈伸时候会有响声<br/>发信站: 北邮人论坛 (Mon Mar6 21:53:31 2017), 站内<br/><br/>大概是一年前了打球把膝盖扭伤，从此之后膝盖每屈伸时候就有响声，也不疼 但是就是会响 尤其深蹲时候。请问有必要去拍片子吗？跑步之后也不会疼但是一活动就会响…这样的话还能跑步吗？<br/><br/><a target=\"_blank\" href=\"http://guiyou.wangx.in\">发自「贵邮」</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 61.148.244.*]<br/>"
     },
     {
-        "title": "这个代码是做指数函数的泰勒展开的，可是看不懂。。。求讲解",
-        "author": "hz455122041",
-        "link": "https://bbs.byr.cn/article/Python/17472",
-        "pubDate": "Mon, 06 Mar 2017 17:14:18 GMT",
-        "description": "发信人: hz455122041 (包子不好蒸), 信区: Python<br/>标题: 这个代码是做指数函数的泰勒展开的，可是看不懂。。。求讲解<br/>发信站: 北邮人论坛 (Mon Mar6 22:07:30 2017), 站内<br/><br/>def calc_e(x): #此函数是用来计算<br/>reverse = False<br/>if x &lt; 0: # 处理负数<br/>x = -x<br/>reverse = True<br/>ln2 = 0.69314718055994530941723212145818<br/>c = x / ln2<br/>a = int(c+0.5)<br/>b = x - a*ln2<br/>y = (2 ** a) * calc_e_small(b)<br/>if reverse:<br/>return 1/y<br/>return y<br/><br/>def calc_e_small(x):<br/>n = 10<br/>f = np.arange(1, n+1).cumprod()<br/>b = np.array([x]*n).cumprod()<br/>return np.sum(b / f) + 1<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.109.242.*]<br/>"
-    },
-    {
         "title": "哪里有盆栽，或者花盆比较好的地方",
         "author": "Jingjing327",
         "link": "https://bbs.byr.cn/article/DIYLife/45983",
         "pubDate": "Mon, 06 Mar 2017 17:15:47 GMT",
         "description": "发信人: Jingjing327 (一只金牛), 信区: DIYLife<br/>标题: 哪里有盆栽，或者花盆比较好的地方<br/>发信站: 北邮人论坛 (Tue Mar7 00:42:46 2017), 站内<br/><br/>最近想养花，附近有没有可以挑选花盆的地方，类似于陶瓷小作坊那种。<br/><br/>或者谁有养的花，毕业带不走的，可以转给我哟~春天一到，养花的心开始复苏~<br/>--<br/><br/>※ 来源:·北邮人论坛手机版 <a target=\"_blank\" href=\"http://m.byr.cn\">http://m.byr.cn</a>·[FROM: 114.242.250.*]<br/>"
+    },
+    {
+        "title": "有人了解Visual Question Answering（VQA）吗？",
+        "author": "mm2015110430",
+        "link": "https://bbs.byr.cn/article/ML%5FDM/22827",
+        "pubDate": "Mon, 06 Mar 2017 21:21:09 GMT",
+        "description": ""
     }
 ]
