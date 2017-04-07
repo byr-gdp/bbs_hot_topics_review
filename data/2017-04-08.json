@@ -31,8 +31,15 @@
         "title": "我就发图不说话",
         "author": "Mrxiaobai",
         "link": "https://bbs.byr.cn/article/Picture/3175238",
-        "pubDate": "Fri, 07 Apr 2017 18:21:55 GMT",
+        "pubDate": "Fri, 07 Apr 2017 20:33:13 GMT",
         "description": "发信人: Mrxiaobai (Mr.小白), 信区: Picture<br/>标题: 我就发图不说话<br/>发信站: 北邮人论坛 (Fri Apr7 10:53:13 2017), 站内<br/><br/>很想评论，然而只能看看不说话<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 122.200.86.*]<br/><br/><br /><a target=\"_blank\" href=\"/att/Picture/3175238/233\"><img border=\"0\" title=\"photo_1491533592_1.jpg\" src=\"/att/Picture/3175238/233\" alt=\"photo_1491533592_1.jpg\" class=\"resizeable\" /></a>"
+    },
+    {
+        "title": "【问题】回文链表的判定（leetcode）",
+        "author": "zzzzxw",
+        "link": "https://bbs.byr.cn/article/Python/17743",
+        "pubDate": "Fri, 07 Apr 2017 18:43:54 GMT",
+        "description": "发信人: zzzzxw (zzzzxw), 信区: Python<br/>标题: 【问题】回文链表的判定（leetcode）<br/>发信站: 北邮人论坛 (Fri Apr7 20:56:33 2017), 站内<br/><br/>刚开始刷LeetCode的链表类，就被难住了……<br/>附件中的是一段most votes的代码，里面用快慢指针法来判断链表中心的部分我已经看懂了，只是把前半段链表reverse的那部分怎么都不明白，也就是那句rev.next=rev，到底是怎么回事呀，要疯了【哭】，有没有谁做过的能帮我解释一下呀？<br/>谢谢！！！！<br /><a target=\"_blank\" href=\"/att/Python/17743/507\"><img border=\"0\" title=\"WechatIMG24.jpeg\" src=\"/att/Python/17743/507\" alt=\"WechatIMG24.jpeg\" class=\"resizeable\" /></a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.213.19.*]<br/><br/>"
     },
     {
         "title": "[联通] 4月1号在联通大厦的二面",
@@ -56,17 +63,10 @@
         "description": "发信人: guguge (guguge), 信区: Talking<br/>标题: 教工木桶饭窗口的牛肉，校长吃了都想打人！<br/>发信站: 北邮人论坛 (Sat Apr8 00:56:29 2017), 站内<br/><br/>事情是这样的，lz肉食系，吃饭肯定是要吃肉的，对各种肉比较熟悉。7号晚在教工觅食，走过木桶饭窗口时，卖饭小哥叫得殷勤，像青楼的菇凉一样招呼：“雷啊雷啊”，本主没经受住诱惑便在此处点了一份泡椒牛肉木桶饭。等了良久上来了，观色泽便觉有点不对，吃了一块果然不是牛肉，妥妥的鸭肉。扒拉了一通一块牛肉都没，基本全是去了皮的鸭肉，遂大怒，端起盆我就去质问那小哥：“哥，说好的牛肉呢？这好像全是鸭肉吧。。。”没想到，那小哥一脸娇羞，扭扭捏捏顾左右而言它：“都是这样卖的，这都是这样卖的。。。”（这是原话）,2333，，我当时就惊了个呆的，但本着士人之怒勿作泼妇之状故没有发作。但想想真的很生气，指鹿为马好歹两者都是四个脚的动物，今用两只脚的禽类代替四只脚的畜类，这样真的好么？考虑过牛的感受么？再者老婆饼虽然没有老婆，但人家卖的确实是饼的价格啊，你写明了牛肉却用鸭肉卖着牛肉的价格，倒真是精通商贾之道啊(⊙o⊙)，靠，心好累，尤其是不喜欢吃鸭肉，想将就都没法将就。之前在新食堂一楼点了一份香菇牛肉铁板，貌似也不是牛肉而是猪肉，但牛和猪差的还不算远，特么牛和鸭亏你们想的出来！<br/>就想问问学校还能吃到放心肉么？之前校长不是说经常吃教工么，我真的是很想请校长吃一顿泡椒牛肉木桶饭呢？校长要是想打人，我棍都备好了?<br/>--<br/><br/>※ 来源:·北邮人论坛手机版 <a target=\"_blank\" href=\"http://m.byr.cn\">http://m.byr.cn</a>·[FROM: 10.210.64.*]<br/>"
     },
     {
-        "title": "【问题】回文链表的判定（leetcode）",
-        "author": "zzzzxw",
-        "link": "https://bbs.byr.cn/article/Python/17743",
-        "pubDate": "Fri, 07 Apr 2017 18:43:54 GMT",
-        "description": "发信人: zzzzxw (zzzzxw), 信区: Python<br/>标题: 【问题】回文链表的判定（leetcode）<br/>发信站: 北邮人论坛 (Fri Apr7 20:56:33 2017), 站内<br/><br/>刚开始刷LeetCode的链表类，就被难住了……<br/>附件中的是一段most votes的代码，里面用快慢指针法来判断链表中心的部分我已经看懂了，只是把前半段链表reverse的那部分怎么都不明白，也就是那句rev.next=rev，到底是怎么回事呀，要疯了【哭】，有没有谁做过的能帮我解释一下呀？<br/>谢谢！！！！<br /><a target=\"_blank\" href=\"/att/Python/17743/507\"><img border=\"0\" title=\"WechatIMG24.jpeg\" src=\"/att/Python/17743/507\" alt=\"WechatIMG24.jpeg\" class=\"resizeable\" /></a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.213.19.*]<br/><br/>"
-    },
-    {
-        "title": "金杜律师事务所和汉得信息offer求比较",
-        "author": "caida0204",
-        "link": "https://bbs.byr.cn/article/WorkLife/1072648",
-        "pubDate": "Fri, 07 Apr 2017 16:33:01 GMT",
-        "description": "发信人: caida0204 (阿达), 信区: WorkLife<br/>标题: 金杜律师事务所和汉得信息offer求比较<br/>发信站: 北邮人论坛 (Sun Apr2 18:40:45 2017), 站内<br/><br/>上外日语专业毕业，专八N1已过，汉得的offer是IT咨询岗，以后要经常出差，不过三年之后有股权，准备以后会跳槽。金杜给的专利秘书(我也不懂。。)工作比较稳定，但是hr后来的电话说日语水平比较高高，这个岗位可能有点大材小用，可能也不是里面的核心职位，求byr有了解的给点建议。另外也申了工行的岗位，如果能成功的话是不是比上面两个好些？<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.128.28.*]<br/>"
+        "title": "诗情画意，醉美宏村",
+        "author": "zzybuptzzy",
+        "link": "https://bbs.byr.cn/article/Photo/262092",
+        "pubDate": "Fri, 07 Apr 2017 16:44:26 GMT",
+        "description": "发信人: zzybuptzzy (清明丶雨未上), 信区: Photo<br/>标题: 诗情画意，醉美宏村<br/>发信站: 北邮人论坛 (Fri Apr7 00:06:34 2017), 站内<br/><br/><font size=\"3\">一组来自安徽宏村的照片，希望大家会喜欢~~O(∩_∩)O~~</font><br/><br/><br /><a target=\"_blank\" href=\"/att/Photo/262092/1100\"><img border=\"0\" title=\"ZZY_5809-Pano-编辑.jpg\" src=\"/att/Photo/262092/1100\" alt=\"ZZY_5809-Pano-编辑.jpg\" class=\"resizeable\" /></a><br/>【器材信息】[型号]NIKON D7100 [焦距]18mm [闪光灯]关 <br/>【拍摄参数】[大小]1000*484 [ISO感光度]100 [光圈值]f/9.0 [曝光时间]1/160s <br/><br /><a target=\"_blank\" href=\"/att/Photo/262092/533599\"><img border=\"0\" title=\"ZZY_5898-编辑.jpg\" src=\"/att/Photo/262092/533599\" alt=\"ZZY_5898-编辑.jpg\" class=\"resizeable\" /></a><br/>【器材信息】[型号]NIKON D7100 [焦距]140mm [闪光灯]关 <br/>【拍摄参数】[大小]1000*667 [ISO感光度]100 [光圈值]f/5.6 [曝光时间]1/160s <br/><br /><a target=\"_blank\" href=\"/att/Photo/262092/1098120\"><img border=\"0\" title=\"ZZY_5903-编辑.jpg\" src=\"/att/Photo/262092/1098120\" alt=\"ZZY_5903-编辑.jpg\" class=\"resizeable\" /></a><br/>【器材信息】[型号]NIKON D7100 [焦距]18mm [闪光灯]关 <br/>【拍摄参数】[大小]1000*670 [ISO感光度]100 [光圈值]f/9.0 [曝光时间]1/160s <br/><br /><a target=\"_blank\" href=\"/att/Photo/262092/1978958\"><img border=\"0\" title=\"ZZY_5922-编辑-2.jpg\" src=\"/att/Photo/262092/1978958\" alt=\"ZZY_5922-编辑-2.jpg\" class=\"resizeable\" /></a><br/>【器材信息】[型号]NIKON D7100 [焦距]70mm [闪光灯]关 <br/>【拍摄参数】[大小]663*1000 [ISO感光度]100 [光圈值]f/5.0 [曝光时间]1/60s <br/><br /><a target=\"_blank\" href=\"/att/Photo/262092/2680600\"><img border=\"0\" title=\"ZZY_5949-编辑.jpg\" src=\"/att/Photo/262092/2680600\" alt=\"ZZY_5949-编辑.jpg\" class=\"resizeable\" /></a><br/>【器材信息】[型号]NIKON D7100 [焦距]52mm [闪光灯]关 <br/>【拍摄参数】[大小]1000*667 [ISO感光度]100 [光圈值]f/4.8 [曝光时间]1/250s <br/><br/>--<br/>※ 修改:·zzybuptzzy 于 Apr7 00:09:54 2017 修改本文·[FROM: 123.116.172.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 123.116.172.*]<br/>"
     }
 ]
