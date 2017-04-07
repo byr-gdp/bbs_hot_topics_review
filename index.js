@@ -44,7 +44,7 @@ var load_data_file = function(file_path){
   }
 };
 
-setInterval(function(){
+setTimeout(function(){
   var now = moment().tz('Asia/Shanghai').format();
   if(valid(now)){
     var file_path = data_dir + now.slice(0, 10) + '.json';
@@ -52,7 +52,7 @@ setInterval(function(){
       return res.text();
     }).then(function(res){
       var latest_data = process_source_xml(res);
-
+      console.log('suc');
       //TODO:读取当日文件
       var current_data = JSON.parse(load_data_file(file_path));
       if(current_data === -1){
@@ -66,7 +66,9 @@ setInterval(function(){
       }else{
         log('读取文件成功');
         var flag = compare(latest_data, current_data);
-        if(flag){
+	console.log(flag);
+	console.log('git add .; git commit -m "auto commit: new file ' + moment().tz('Asia/Shanghai').format() + '"; git push origin master;');
+        if(true){
           fs.writeFile(file_path, JSON.stringify(latest_data, null, 4), function(err){
             if(err){
               log('写入文件失败：主题发生变化');
@@ -80,4 +82,4 @@ setInterval(function(){
   }else{
     log('非记录时间：' + now);
   }
-}, 10 * 1000);
+}, 1 * 1 * 1000);
