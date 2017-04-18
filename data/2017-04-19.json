@@ -3,7 +3,7 @@
         "title": "【比较】Android实习offer求选择",
         "author": "HYCZCYH",
         "link": "https://bbs.byr.cn/article/Job/1884196",
-        "pubDate": "Tue, 18 Apr 2017 21:54:02 GMT",
+        "pubDate": "Tue, 18 Apr 2017 22:28:41 GMT",
         "description": "发信人: HYCZCYH (猹颀), 信区: Job<br/>标题: 【比较】Android实习offer求选择<br/>发信站: 北邮人论坛 (Tue Apr 18 19:39:55 2017), 站内<br/><br/>研二渣硕一枚，略懂Android开发，侥幸拿了些暑期实习offer，希望大大们给点选择建议：<br/>1、阿里，菜鸟；<br/>2、新美大，主要做类似钉钉的产品；<br/>3、今日头条，头条视频；<br/>4、京东，京东商城APP；<br/>5、猿辅导；<br/>6、阿凡题，客户端；<br/>7、360，浏览器APP；<br/>8、快手，推流SDK；<br/>9、映客直播，客户端；<br/>10、腾讯，omg；<br/>11、百度，视频；<br/>待遇是阿凡题和猿辅导比较高，其他几个相差不大。<br/>说明一下，有几个是散招，但是谈好了可以暑期过去……有回复认为是假的，那你就当是假的吧，这个不是重点，重点是选哪个比较好<img src=\"/img/ubb/emc/32.gif\" alt=\"emc32\" style=\"display:inline;border-style:none\"/><br/>----------------------------------------------------------------------------------<br/>面筋：具体的面试题就不说了，反正大同小异，基本就是网上那些。<br/>1、刷题：牛客网+剑指offer+LeetCode，我是从研一暑假开始刷，剑指反复刷了很多遍，里面的题看完就能写出答案；牛客网把专项练习中的Android+Java+编程基础的题都刷完了；LeetCode刷了一些简单的。基本面试时算法题至少能做出一半，本来Android岗对算法要求不是很高，而且一般只考两道算法题。<br/>2、看博客：我一般看CSDN+GitHub+简书+云栖，然后把写的比较好的存入有道云笔记。CSDN比较有名的Android博主是张鸿阳、郭霖、罗升阳……博客内容主要分为Java基础和Android两块，具体内容有很多大神作了总结，我最初是按照这个顺序来复习的：<br/>http://www.jianshu.com/p/735be5ece9e8<br/>原生的组件(尤其是四大)都要吃透，然后再根据自己的情况查漏补缺，而且一个知识点只看一篇博客，我认为是远远不够的，你用的很熟练，不代表你面试时能把细节和原理讲的很清楚。<br/>3、面试：面试前可以先了解下这家公司的技术航道和主打产品。一般面试官有自己的擅长方向，喜欢抓住某个点一直深入下去，所以你简历上的内容都最好了解的很透彻，而不仅仅是“我用过、我用这个很熟练”。比如：EventBus\\Retrofit\\RxJava\\Fresco\\Dagger\\Butterknife\\GreenDao\\utimate-RecyclerView\\volley\\Coordinator这些轮子不但要会用，还要理解内部源码是怎么实现的？他们和竞品轮子相比有什么优缺点？你有没有仿照这些轮子造一些新的轮子？这些轮子使用的时候有什么缺陷？对待ASDK原生的轮子（例如Handler和LruCache）也是如此。<br/>设计模式：我接触到的一般问的比较多就是MVP\\Observer\\Single\\Factory，不但要讲清楚自己对这些模式的理解和掌握，最好是举出自己的应用例子，比如我之前模仿IOS的VIPER的思路+观察者实现了一种路由框架来实现项目的组件解耦，并且能快速画出大致的UML和时序图，这样面试官可能会眼前一亮。<br/>GC：我觉得至少要能简述Java GC的工作原理、如何优化GC的性能、如何与GC进行有限的交互，还有GC机制中的算法。<br/>App内存优化：这个网上有很多博客，主要从bitmap和代码这两块去说；还有常用的工具要熟练一两个，例如TraceView和Monitor等等，可参考这篇博客：<br/>http://www.jianshu.com/p/da2a4bfcba68<br/>网络协议：http1.1/http2.0/https/TCP/IP/UDP，至少要能简述实现原理和优缺点；如果你侧重视频直播类app的开发，那至少还要好好啃下RTMP和FFmpeg和WebRTC，ijkplayer和vitamio也要了解下，最好对乐视、七牛、网易、阿里等大厂的推流SDK做些了解，还可以看看：<br/>http://blog.csdn.net/lipengshiwo/article/details/53334048<br/>其他的：多线程、序列化、各种锁、集合类、JNI、customized view等等，都要深入理解；SQL、热修复、插件化、react native也要会一些；APP低功耗、APK的压缩这些也是要掌握的基础。<br/>最后：BYR论坛很强大，上面和Android相关的面试题有空都看看，之前有一位17届的同学贴出了每次面试的题目，我都收藏并且找相应的答案学习。另外可以在简历上附上自己的个人网站，贴上自己的GitHub\\blog\\wheel\\project\\intern，万一项目和实习太多了，一页简历根本写不下。<br/>最后的最后：多看好书\\好博客+多写代码+多review+多和大神交流+check out名轮的制造细节，不要学的太局限，毕竟Android的功夫体现在Android之外。<br/>※ 修改:·HYCZCYH 于 Apr 18 23:22:25 2017 修改本文·[FROM: 10.108.64.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.108.64.*]<br/>"
     },
     {
@@ -38,7 +38,7 @@
         "title": "信通考研方向选择：信通？计算机？网研？",
         "author": "Mer",
         "link": "https://bbs.byr.cn/article/AimGraduate/1105932",
-        "pubDate": "Tue, 18 Apr 2017 18:07:30 GMT",
+        "pubDate": "Tue, 18 Apr 2017 22:51:33 GMT",
         "description": "发信人: Mer (red), 信区: AimGraduate<br/>标题: 信通考研方向选择：信通？计算机？网研？<br/>发信站: 北邮人论坛 (Tue Apr 18 16:48:13 2017), 站内<br/><br/>信通大三，喜欢计算机、编程，完整的不完整的小（没有深入学习）项目（网页、爬虫、服务器、Linux等）自己也捣鼓了不少，对通信不是非常感兴趣，如果可以，希望通过考计算机读研。考研目的在于想在大数据，机器学习，模式识别等类似领域深入学习理论知识和项目应用（侧重）。如果本科毕业去工作的话，感觉自己现在的水平不够。<br/><br/>最近收集的信息让我有些迷惑，可能是因为专业环境的原因，感觉信通院有更多的关于机器学习、模式识别、大数据方面的实验室；计算机学院则是云计算、大数据、NLP、计网这些方向；网研则包含移动/未来/下一代互联网、通信、大数据和云计算。<br/><br/>由于所处位置不同，也无法通过这些实验室的介绍了解到足够的信息，希望各位在读或者已经毕业的学长学姐给些实验室建议或者说一下实验室中大数据、机器学习等技术的╳应用场景╳。<br/>（尽管现在是大多都在接触ML-BD，但是环境不同，氛围应该也不一样吧）<br/><br/>谢谢大家看到这里，第一次发帖不知道如何把问题简单地描述出来，勿怪。<br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 10.28.98.*]<br/>"
     },
     {
@@ -59,14 +59,14 @@
         "title": "有没有人能给一个去杭州的理由（顺带悄悄征个友）",
         "author": "buptllxxx",
         "link": "https://bbs.byr.cn/article/Zhejiang/156349",
-        "pubDate": "Tue, 18 Apr 2017 21:47:45 GMT",
+        "pubDate": "Tue, 18 Apr 2017 22:29:30 GMT",
         "description": "发信人: buptllxxx (兰陵笑笑羊；wuli贼花猫), 信区: Zhejiang<br/>标题: 有没有人能给一个去杭州的理由（顺带悄悄征个友）<br/>发信站: 北邮人论坛 (Thu Nov 10 14:22:12 2016), 站内<br/><br/>拿到杭州那边的offer，北京也能留，犹豫不定，北京没什么必须留下来的理由，好像杭州也没有必须要去的理由。so 好纠结！<br/>--<br/>纠结了一番，还是定在了杭州。最近去杭州逛了逛，发现这座城市还是挺宜居的，慢节奏，空气不错。<br/>--<br/>到了杭州开始实习以后，发现几乎接触不到单身男青年呀，更别提适龄合适的了，初来乍到圈子甚小。单位宿舍在遥远的拱墅区，去一趟城里要一个小时+。感觉要孤独终老了。鉴于是个论坛的老号，希望悄悄的在浙江版面征一波友。有缘人一定能看见。<br/>我自己：身高163，体重110，长相中等，爱运动，喜欢安静，可以私下照片，北邮本硕，家里独女，在安徽北部的小城，普通工薪家庭，家庭和睦。<br/>希望你：身高170+，干净阳光，无吸烟喝酒不良嗜好，长相和我匹配。学校不要比北邮差（不喜勿喷），最好是北邮的。工作上有上进心。不沉迷游戏。爱运动。家庭和睦。<br/>联系方式先站内吧。希望自己足够幸运，可以在2017年碰到牵手一生的人。<img src=\"/img/ubb/ema/33.gif\" alt=\"ema33\" style=\"display:inline;border-style:none\"/><img src=\"/img/ubb/ema/33.gif\" alt=\"ema33\" style=\"display:inline;border-style:none\"/><br/><br/>最后附上张爱玲的一段话以及自己的公众号小短文一篇：于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里，没有早一步，也没有晚一步，刚巧赶上了，那也没有别的话可说，惟有轻轻地问一声：“噢，你也在这里吗？”<br/>http://mp.weixin.qq.com/s/ELF6voN480zOMk0RqbLp1Q<br/>※ 修改:·buptllxxx 于 Apr 18 11:14:45 2017 修改本文·[FROM: 183.159.128.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 114.242.248.*]<br/>"
     },
     {
-        "title": "我邮有没有android的学习交流群吗？",
-        "author": "bklt",
-        "link": "https://bbs.byr.cn/article/MobileTerminalAT/32940",
-        "pubDate": "Tue, 18 Apr 2017 17:10:00 GMT",
-        "description": "发信人: bklt (半块绿糖), 信区: MobileTerminalAT<br/>标题: 我邮有没有android的学习交流群吗？<br/>发信站: 北邮人论坛 (Mon Feb 13 16:49:21 2017), 站内<br/><br/>如果有能不能在回帖里贴一个群号活二维码？<br/><br/><a target=\"_blank\" href=\"http://guiyou.wangx.in\">发自「贵邮」</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 61.135.169.*]<br/>"
+        "title": "男嘉宾在节目上吹嘘体外射精，旁边教授看不下去了……",
+        "author": "zhjj2014",
+        "link": "https://bbs.byr.cn/article/Picture/3176081",
+        "pubDate": "Tue, 18 Apr 2017 20:46:42 GMT",
+        "description": "发信人: zhjj2014 (为你而来), 信区: Picture<br/>标题: 男嘉宾在节目上吹嘘体外射精，旁边教授看不下去了…… <br/>发信站: 北邮人论坛 (Wed Apr 19 02:49:14 2017), 站内<br/><br/><br /><a target=\"_blank\" href=\"/att/Picture/3176081/262\"><img border=\"0\" title=\"IMG_4079.JPG\" src=\"/att/Picture/3176081/262\" alt=\"IMG_4079.JPG\" class=\"resizeable\" /></a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 114.242.250.*]<br/><br/>"
     }
 ]
