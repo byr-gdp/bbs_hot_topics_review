@@ -3,8 +3,15 @@
         "title": "【比较】Android实习offer求选择",
         "author": "HYCZCYH",
         "link": "https://bbs.byr.cn/article/Job/1884196",
-        "pubDate": "Tue, 18 Apr 2017 17:12:16 GMT",
+        "pubDate": "Tue, 18 Apr 2017 17:46:08 GMT",
         "description": "发信人: HYCZCYH (猹颀), 信区: Job<br/>标题: 【比较】Android实习offer求选择<br/>发信站: 北邮人论坛 (Tue Apr 18 19:39:55 2017), 站内<br/><br/>研二渣硕一枚，略懂Android开发，侥幸拿了些暑期实习offer，希望大大们给点选择建议：<br/>1、阿里，菜鸟；<br/>2、新美大，主要做类似钉钉的产品；<br/>3、今日头条，头条视频；<br/>4、京东，京东商城APP；<br/>5、猿辅导；<br/>6、阿凡题，客户端；<br/>7、360，浏览器APP；<br/>8、快手，推流SDK；<br/>9、映客直播，客户端；<br/>10、腾讯，omg；<br/>11、百度，视频；<br/>待遇是阿凡题和猿辅导比较高，其他几个相差不大。<br/>说明一下，有几个是散招，但是谈好了可以暑期过去……有回复认为是假的，那你就当是假的吧，这个不是重点，重点是选哪个比较好<img src=\"/img/ubb/emc/32.gif\" alt=\"emc32\" style=\"display:inline;border-style:none\"/><br/>----------------------------------------------------------------------------------<br/>面筋：具体的面试题就不说了，反正大同小异，基本就是网上那些。<br/>1、刷题：牛客网+剑指offer+LeetCode，我是从研一暑假开始刷，剑指反复刷了很多遍，里面的题看完就能写出答案；牛客网把专项练习中的Android+Java+编程基础的题都刷完了；LeetCode刷了一些简单的。基本面试时算法题至少能做出一半，本来Android岗对算法要求不是很高，而且一般只考两道算法题。<br/>2、看博客：我一般看CSDN+GitHub+简书+云栖，然后把写的比较好的存入有道云笔记。CSDN比较有名的Android博主是张鸿阳、郭霖、罗升阳……博客内容主要分为Java基础和Android两块，具体内容有很多大神作了总结，我最初是按照这个顺序来复习的：<br/>http://www.jianshu.com/p/735be5ece9e8<br/>原生的组件(尤其是四大)都要吃透，然后再根据自己的情况查漏补缺，而且一个知识点只看一篇博客，我认为是远远不够的，你用的很熟练，不代表你面试时能把细节和原理讲的很清楚。<br/>3、面试：面试前可以先了解下这家公司的技术航道和主打产品。一般面试官有自己的擅长方向，喜欢抓住某个点一直深入下去，所以你简历上的内容都最好了解的很透彻，而不仅仅是“我用过、我用这个很熟练”。比如：EventBus\\Retrofit\\RxJava\\Fresco\\Dagger\\Butterknife\\GreenDao\\utimate-RecyclerView\\volley\\Coordinator这些轮子不但要会用，还要理解内部源码是怎么实现的？他们和竞品轮子相比有什么优缺点？你有没有仿照这些轮子造一些新的轮子？这些轮子使用的时候有什么缺陷？对待ASDK原生的轮子（例如Handler和LruCache）也是如此。<br/>设计模式：我接触到的一般问的比较多就是MVP\\Observer\\Single\\Factory，不但要讲清楚自己对这些模式的理解和掌握，最好是举出自己的应用例子，比如我之前模仿IOS的VIPER的思路+观察者实现了一种路由框架来实现项目的组件解耦，并且能快速画出大致的UML和时序图，这样面试官可能会眼前一亮。<br/>GC：我觉得至少要能简述Java GC的工作原理、如何优化GC的性能、如何与GC进行有限的交互，还有GC机制中的算法。<br/>App内存优化：这个网上有很多博客，主要从bitmap和代码这两块去说；还有常用的工具要熟练一两个，例如TraceView和Monitor等等，可参考这篇博客：<br/>http://www.jianshu.com/p/da2a4bfcba68<br/>网络协议：http1.1/http2.0/https/TCP/IP/UDP，至少要能简述实现原理和优缺点；如果你侧重视频直播类app的开发，那至少还要好好啃下RTMP和FFmpeg和WebRTC，ijkplayer和vitamio也要了解下，最好对乐视、七牛、网易、阿里等大厂的推流SDK做些了解，还可以看看：<br/>http://blog.csdn.net/lipengshiwo/article/details/53334048<br/>其他的：多线程、序列化、各种锁、集合类、JNI、customized view等等，都要深入理解；SQL、热修复、插件化、react native也要会一些；APP低功耗、APK的压缩这些也是要掌握的基础。<br/>最后：BYR论坛很强大，上面和Android相关的面试题有空都看看，之前有一位17届的同学贴出了每次面试的题目，我都收藏并且找相应的答案学习。另外可以在简历上附上自己的个人网站，贴上自己的GitHub\\blog\\wheel\\project\\intern，万一项目和实习太多了，一页简历根本写不下。<br/>最后的最后：多看好书\\好博客+多写代码+多review+多和大神交流+check out名轮的制造细节，不要学的太局限，毕竟Android的功夫体现在Android之外。<br/>※ 修改:·HYCZCYH 于 Apr 18 23:22:25 2017 修改本文·[FROM: 10.108.64.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.108.64.*]<br/>"
+    },
+    {
+        "title": "周日去八达岭长城，求建议",
+        "author": "chaojibing",
+        "link": "https://bbs.byr.cn/article/Talking/5903623",
+        "pubDate": "Tue, 18 Apr 2017 17:37:03 GMT",
+        "description": "发信人: chaojibing (Person丨Just), 信区: Talking<br/>标题: 周日去八达岭长城，求建议<br/>发信站: 北邮人论坛 (Tue Apr 18 23:15:54 2017), 站内<br/><br/>听说s2得去霍营坐，带着女朋友也不适合去s2线冲刺，暂定去坐877了。<br/>然后~<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.202.11.*]<br/>"
     },
     {
         "title": "#第三周赛事总结#北京邮电大学2017年“中兴通讯杯”研究生篮球",
@@ -14,18 +21,25 @@
         "description": "发信人: Yanhuitiyubu (北邮研会体育部 | 让我们一起进步！), 信区: Basketball<br/>标题: #第三周赛事总结#北京邮电大学2017年“中兴通讯杯”研究生篮球<br/>发信站: 北邮人论坛 (Tue Apr 18 23:51:04 2017), 站内<br/><br/><b><font face=\"黑体\"><font size=\"5\"><font color=\"#DC143C\">#第三周赛事总结&amp;&amp;精彩集锦#</font>北京邮电大学2017年“中兴通讯杯”研究生篮球赛</font></font></b><img src=\"/img/ubb/emc/41.gif\" alt=\"emc41\" style=\"display:inline;border-style:none\"/><br/><br/>4月8日小组赛第二轮刚刚结束，仅仅隔了一天，北京邮电大学2017年“中兴通讯杯”研究生篮球赛<b><font size=\"4\"><font color=\"#DC143C\">小组赛最后一轮</font></font></b>比赛又于4月10日马不停蹄地拉开了战幕。<br/>前两轮比赛后已确保小组出线的队伍或是利用最后一轮比赛演练自己的战术，或是全力拼得一个更好的小组排位，力求在淘汰赛中有更好的发挥。尚未获得出线资格的队伍则为了出线权火力全开，拼尽全力力求一胜。虽然结果是几家欢喜几家愁，但所有队伍在赛场上都向我们展现了顽强的拼搏精神，为我们奉献了一场场精彩的比赛。<br/><br/><b><font size=\"4\"><font color=\"#DC143C\">第三周赛事结果：</font></font></b><img src=\"/img/ubb/emc/32.gif\" alt=\"emc32\" style=\"display:inline;border-style:none\"/><br/><br /><a target=\"_blank\" href=\"/att/Basketball/604249/5094\"><img border=\"0\" title=\"第三周赛事结果.PNG\" src=\"/att/Basketball/604249/5094\" alt=\"第三周赛事结果.PNG\" class=\"resizeable\" /></a><br/><br/><b><font size=\"4\"><font color=\"#DC143C\">赛事点评与总结：</font></font></b><br/><br/>本轮比赛之后，进入接下来的淘汰赛的八支队伍就已经产生了，他们将在接下来的比赛中再接再厉，为我们奉献更加精彩的比赛！<br/>在进入更加激烈刺激的<b><font size=\"4\"><font color=\"#DC143C\">淘汰赛</font></font></b>之前，我们不妨先对最后一轮小组赛来个简短的总结。<br/><br/><b><font color=\"#B22222\">A组方面：</font></b><br/>已经提前获得小组出线权的民院队与自动化队为了争夺小组第一展开了较量，结果民院队延续了自己的小组赛<b>不败战绩</b>，继续高歌猛进。双方在第一节打得都比较紧，比分也没有拉开，民院队仅仅以6:5领先1分。但民院队从第二节开始发力，多次命中三分球，一下将分差拉开，再加上中场女生投篮环节民院队延续了她们一贯极高的命中率，进一步扩大了领先优势。第三节民院队继续掌握着场上的主动，一举将分差扩大到16分，比赛也就此早早失去了悬念。获胜的民院队拿到了A组第一，失利的自动化队则以A组第二的身份进入淘汰赛。<br/>A组的另一场比赛在电子队与信通三队之间展开，两队虽然都已无缘小组出线，但同样为我们奉献了一场精彩的比赛。电子队在8号朱其貌的带领下上来就占据了主动，他一人首节便得到了10分，带领电子队以12:4领先。第二节信通三队多点开花，展开了强有力的反击，并将分差缩小到了3分。中场女生投篮环节电子队的女生更加给力，为电子队再添3分，也为电子队注入了一针强心剂。下半场，电子队乘胜追击，最多时将分差扩大到了20分，最终以15分的优势取得胜利。<br/><br/><b><font color=\"#B22222\">B组方面：</font></b><br/>前两轮比赛一胜一负的信通二队对上了两战绩皆负的四院联队，结果他们兵不血刃，一上来就大比分领先对手，首节便打出了23:4的比分。第二节和第三节他们继续着良好的表现，算上中场女生投篮，他们已经领先到了53分。第四节，四院联队9号王子豪站了出来，他一人连续得分，并送出多次助攻，将分差缩小。虽然最终信通二队还是大比分获胜并以B组第二出线，但四院联队也展现了他们的风采。<br/>B组的另一场比赛中，新的夺冠热门网研队延续了自己<b>不败的势头</b>，大比分战胜了观众席美女众多的经管一队。全场比赛，网研队始终占据着场上的优势，并不断扩大战果，最终以将近30分的优势取得一场大胜，拿到了B组的头名。经管一队虽惨遭淘汰，但仍然展现出了顽强的拼搏精神。<br/><br/><b><font color=\"#B22222\">C组方面：</font></b><br/>计算机队与MBA队的比赛在<b>欢乐祥和</b>的气氛中展开并延续了全场。两队打出了精彩的对攻大战，多次上演快攻一条龙的好戏。单单第一节，两队就打出了38:16的高比分，甚至都超过了本届比赛中其他某些场次全场比赛的比分。最终技高一筹的计算机队以131:70的惊人比分战胜了MBA队，以C组第二的身份晋级。<br/>C组末轮的<b>焦点之战</b>在软文理队与网安队之间展开，软文理队在前两轮中虽取得两胜，但仍未确保出线。而网安队在上一轮经历了最后时刻的黑色10秒钟被计算机队<b>神奇逆转</b>后，本轮必须净胜软文理队4分以上才能获得出线权。可能是还未从上一轮的失利中走出来，网安队在本场比赛中比较慢热，一上来就被软文理队打出了一波9:0的进攻高潮。此后网安队一直处于苦苦追赶的角色中，一直未能将比分反超。虽然在第四节开局阶段一度将分差缩小到3分，但软文理队在12号郑松涛、3号张家宁、35号薛钦予三人带领下始终没有放松，并在最后阶段再次打出一波高潮，最终以47:33大比分获胜。软文理队在拿下这场胜利后，三战全胜，C组第一进入淘汰赛。<br/><br/><b><font color=\"#B22222\">D组方面：</font></b><br/>光研队与经管二队的比赛异常激烈，双方战至最后时刻才分出胜负。上半场一度落后13分的经管二队在第三节展开了强有力的反击，一度将分差缩小到两分，但光研队在第四节稳住了阵脚，没有再让对手反超，最终以5分优势险胜对手。<br/>留学生队与信通一队的比赛则非常<b>戏剧化</b>，上半场还领先的信通一队在下半场突然迷失了方向，留学生队趁机反超比分并拉大分差，一举奠定胜局，最终以13分的优势大胜对手，在第一轮1分分差遗憾落败后取得了两连胜。他们与同为两胜一负的光研队拿下了D组的前两名。<br/><br/><b><font size=\"4\"><font color=\"#DC143C\">本周精彩集锦</font></font></b><img src=\"/img/ubb/emc/49.gif\" alt=\"emc49\" style=\"display:inline;border-style:none\"/><br/><div class=\"a-swf\" _src=\"https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=p0394vxlde7&amp;auto=0\"><object class=\"resizeable\"classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0\" width=\"560px\" height=\"420px\"><param name=\"allowScriptAccess\" value=\"never\" /><param name=\"allowFullScreen\" value=\"true\" /><param name=\"movie\" value=\"https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=p0394vxlde7&amp;auto=0\" /><param name=\"quality\" value=\"high\" /><embed src=\"https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&amp;v=20161117&amp;vid=p0394vxlde7&amp;auto=0\" quality=\"high\" allowScriptAccess=\"never\" allowFullScreen=\"true\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" width=\"560px\" height=\"420px\"/></object></div><br/><br/><b><font size=\"4\"><font color=\"#DC143C\">八强球队</font></font></b><br/><br /><a target=\"_blank\" href=\"/att/Basketball/604249/32320\"><img border=\"0\" title=\"八强球队.PNG\" src=\"/att/Basketball/604249/32320\" alt=\"八强球队.PNG\" class=\"resizeable\" /></a><br/><br/><b><font size=\"4\"><font color=\"#DC143C\">八强之战预告</font></font></b><br/><br /><a target=\"_blank\" href=\"/att/Basketball/604249/41883\"><img border=\"0\" title=\"八强之战预告.PNG\" src=\"/att/Basketball/604249/41883\" alt=\"八强之战预告.PNG\" class=\"resizeable\" /></a><br/><br/><br/>感谢<b>中兴通讯</b>对本次篮球赛的大力支持！<br/>中兴通讯股份有限公司（ZTE）是全球领先的综合通信解决方案提供商，也是中国最大的通信设备上市公司。 <br/>中兴通讯推出“<b>蓝剑计划</b>”，以优渥的条件大力招揽技术型精英。只要你是技术大牛，只要你对自己的能力足够自信，那么加入中兴！在这里，你可以收获顶级专家指导，快速晋升渠道，安居房等各种福利。 <br/>更多信息可扫描下方二维码关注中兴招聘公众号和北邮中兴俱乐部，也可加入<b>2018届中兴招聘qq群:136156764</b>。<br/><br /><a target=\"_blank\" href=\"/att/Basketball/604249/51757\"><img border=\"0\" title=\"中兴.jpg\" src=\"/att/Basketball/604249/51757\" alt=\"中兴.jpg\" class=\"resizeable\" /></a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.210.107.*]<br/><br/>"
     },
     {
-        "title": "周日去八达岭长城，求建议",
-        "author": "chaojibing",
-        "link": "https://bbs.byr.cn/article/Talking/5903623",
-        "pubDate": "Tue, 18 Apr 2017 17:21:23 GMT",
-        "description": "发信人: chaojibing (Person丨Just), 信区: Talking<br/>标题: 周日去八达岭长城，求建议<br/>发信站: 北邮人论坛 (Tue Apr 18 23:15:54 2017), 站内<br/><br/>听说s2得去霍营坐，带着女朋友也不适合去s2线冲刺，暂定去坐877了。<br/>然后~<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.202.11.*]<br/>"
-    },
-    {
         "title": "肚子越来越大，他...",
         "author": "wh798159421",
         "link": "https://bbs.byr.cn/article/Feeling/2979578",
-        "pubDate": "Tue, 18 Apr 2017 17:11:47 GMT",
+        "pubDate": "Tue, 18 Apr 2017 17:36:41 GMT",
         "description": "发信人: wh798159421 (内向猪), 信区: Feeling<br/>标题: 肚子越来越大，他...<br/>发信站: 北邮人论坛 (Tue Apr 18 23:22:48 2017), 站内<br/><br/>他妈的，要胖死了，一顿不吃饿得慌，越吃越胖。关键是还没有女朋友，矮肥挫总不能三样都占吧。<br/><br/><a target=\"_blank\" href=\"http://guiyou.ichon.me\">发自「贵邮」</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 1.180.212.*]<br/>"
+    },
+    {
+        "title": "信通考研方向选择：信通？计算机？网研？",
+        "author": "Mer",
+        "link": "https://bbs.byr.cn/article/AimGraduate/1105932",
+        "pubDate": "Tue, 18 Apr 2017 17:47:48 GMT",
+        "description": "发信人: Mer (red), 信区: AimGraduate<br/>标题: 信通考研方向选择：信通？计算机？网研？<br/>发信站: 北邮人论坛 (Tue Apr 18 16:48:13 2017), 站内<br/><br/>信通大三，喜欢计算机、编程，完整的不完整的小（没有深入学习）项目（网页、爬虫、服务器、Linux等）自己也捣鼓了不少，对通信不是非常感兴趣，如果可以，希望通过考计算机读研。考研目的在于想在大数据，机器学习，模式识别等类似领域深入学习理论知识和项目应用（侧重）。如果本科毕业去工作的话，感觉自己现在的水平不够。<br/><br/>最近收集的信息让我有些迷惑，可能是因为专业环境的原因，感觉信通院有更多的关于机器学习、模式识别、大数据方面的实验室；计算机学院则是云计算、大数据、NLP、计网这些方向；网研则包含移动/未来/下一代互联网、通信、大数据和云计算。<br/><br/>由于所处位置不同，也无法通过这些实验室的介绍了解到足够的信息，希望各位在读或者已经毕业的学长学姐给些实验室建议或者说一下实验室中大数据、机器学习等技术的╳应用场景╳。<br/>（尽管现在是大多都在接触ML-BD，但是环境不同，氛围应该也不一样吧）<br/><br/>谢谢大家看到这里，第一次发帖不知道如何把问题简单地描述出来，勿怪。<br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 10.28.98.*]<br/>"
+    },
+    {
+        "title": "176长腿妹子来征男盆友【王道】",
+        "author": "guoting979",
+        "link": "https://bbs.byr.cn/article/Friends/1801578",
+        "pubDate": "Tue, 18 Apr 2017 17:40:01 GMT",
+        "description": "发信人: guoting979 (血·蔷薇), 信区: Friends<br/>标题: 176长腿妹子来征男盆友【王道】<br/>发信站: 北邮人论坛 (Fri Apr7 12:38:27 2017), 站内<br/><br/>妹子：93年双子座，身高176（抱歉开始写矮了，妹子净身高176），脖子以下几乎都是腿，地道的东北妞，中国医科大学本科，研一。性格呢没有公主病不做作，有点小汉子又有些小脆弱，总之大大咧咧有点帅气有点儿二但是很可爱的感觉吧。毕竟太熟。不知道怎么形容，相处之中慢慢体会吧。<br/>妹子的要求：希望你的年龄在93-88年之间，喜欢成熟一些的呦，身高180以上，妹子实在太高了对身高要求也有些严格哈，有趣有责任感，对人生有起码的规划，最好现在在沈阳，未来一起计划。<br/>邮箱：cxixixixixixixic@163.com<br/><br /><a target=\"_blank\" href=\"/att/Friends/1801578/843\"><img border=\"0\" title=\"WechatIMG4.jpeg\" src=\"/att/Friends/1801578/843\" alt=\"WechatIMG4.jpeg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1801578/167468\"><img border=\"0\" title=\"WechatIMG5.jpeg\" src=\"/att/Friends/1801578/167468\" alt=\"WechatIMG5.jpeg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1801578/270574\"><img border=\"0\" title=\"WechatIMG6.jpeg\" src=\"/att/Friends/1801578/270574\" alt=\"WechatIMG6.jpeg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1801578/640634\"><img border=\"0\" title=\"WechatIMG7.jpeg\" src=\"/att/Friends/1801578/640634\" alt=\"WechatIMG7.jpeg\" class=\"resizeable\" /></a><br/>--<br/>※ 修改:·guoting979 于 Apr7 16:22:17 2017 修改本文·[FROM: 61.51.129.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 61.51.129.*]<br/>"
     },
     {
         "title": "有没有同学得过这个颞下颌关节炎病的？",
@@ -35,11 +49,11 @@
         "description": "发信人: a460087935 (asd无间), 信区: Health<br/>标题: 有没有同学得过这个颞下颌关节炎病的？<br/>发信站: 北邮人论坛 (Tue Apr 18 22:24:27 2017), 站内<br/><br/>症状：一张嘴，耳前挂钩处疼。张嘴张到一定程度时，会卡住，用力的话就会响。<br/>病因：上网查说是没有明确原因，不过我是因为5年前失恋，这种精神因素导致的。同学说是因为牙不整齐需要矫治牙。<br/>那么问题来了，如果想治疗这个病，应该从何下手呢？ 光是响也就算了，关键是这一下一下疼的，有点抓心。<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.209.5.*]<br/>"
     },
     {
-        "title": "信通考研方向选择：信通？计算机？网研？",
-        "author": "Mer",
-        "link": "https://bbs.byr.cn/article/AimGraduate/1105932",
-        "pubDate": "Tue, 18 Apr 2017 16:30:15 GMT",
-        "description": "发信人: Mer (red), 信区: AimGraduate<br/>标题: 信通考研方向选择：信通？计算机？网研？<br/>发信站: 北邮人论坛 (Tue Apr 18 16:48:13 2017), 站内<br/><br/>信通大三，喜欢计算机、编程，完整的不完整的小（没有深入学习）项目（网页、爬虫、服务器、Linux等）自己也捣鼓了不少，对通信不是非常感兴趣，如果可以，希望通过考计算机读研。考研目的在于想在大数据，机器学习，模式识别等类似领域深入学习理论知识和项目应用（侧重）。如果本科毕业去工作的话，感觉自己现在的水平不够。<br/><br/>最近收集的信息让我有些迷惑，可能是因为专业环境的原因，感觉信通院有更多的关于机器学习、模式识别、大数据方面的实验室；计算机学院则是云计算、大数据、NLP、计网这些方向；网研则包含移动/未来/下一代互联网、通信、大数据和云计算。<br/><br/>由于所处位置不同，也无法通过这些实验室的介绍了解到足够的信息，希望各位在读或者已经毕业的学长学姐给些实验室建议或者说一下实验室中大数据、机器学习等技术的╳应用场景╳。<br/>（尽管现在是大多都在接触ML-BD，但是环境不同，氛围应该也不一样吧）<br/><br/>谢谢大家看到这里，第一次发帖不知道如何把问题简单地描述出来，勿怪。<br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 10.28.98.*]<br/>"
+        "title": "建议大家以后不要招亚马逊出来的人，水货太多了",
+        "author": "ccuuu",
+        "link": "https://bbs.byr.cn/article/WorkLife/1073293",
+        "pubDate": "Tue, 18 Apr 2017 17:31:46 GMT",
+        "description": "发信人: ccuuu (ccuuu), 信区: WorkLife<br/>标题: 建议大家以后不要招亚马逊出来的人，水货太多了<br/>发信站: 北邮人论坛 (Mon Apr 17 23:02:27 2017), 站内<br/><br/>而且级别越高越水<br/>另外一个规律是，级别高的水平高不高不一定，但是政治斗争玩心眼抢功甩锅会忽悠的水平都很高 <br/>--<br/>※ 修改:·ccuuu 于 Apr 18 08:00:38 2017 修改本文·[FROM: 103.77.56.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 103.77.56.*]<br/>"
     },
     {
         "title": "我邮有没有android的学习交流群吗？",
@@ -49,24 +63,10 @@
         "description": "发信人: bklt (半块绿糖), 信区: MobileTerminalAT<br/>标题: 我邮有没有android的学习交流群吗？<br/>发信站: 北邮人论坛 (Mon Feb 13 16:49:21 2017), 站内<br/><br/>如果有能不能在回帖里贴一个群号活二维码？<br/><br/><a target=\"_blank\" href=\"http://guiyou.wangx.in\">发自「贵邮」</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 61.135.169.*]<br/>"
     },
     {
-        "title": "【问题】ctf求解答",
-        "author": "tossgirl1990",
-        "link": "https://bbs.byr.cn/article/Security/42457",
-        "pubDate": "Tue, 18 Apr 2017 16:51:45 GMT",
-        "description": "发信人: tossgirl1990 (巨乳胖萝莉), 信区: Security<br/>标题: 【问题】ctf求解答<br/>发信站: 北邮人论坛 (Tue Apr 18 21:39:18 2017), 站内<br/><br/><br /><font color=\"blue\">附件(174.2KB)</font><a href=\"/att/Security/42457/333\" target=\"_blank\">1.2.1.vImQo3z45rYusnSX.zip</a><br/><br/>应该是伪加密吧，解压后是个小男孩图片，小男孩图片修改成rar后解压是小女孩图片，然而怎么页找不到flag<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 101.81.201.*]<br/><br/>"
-    },
-    {
-        "title": "建议大家以后不要招亚马逊出来的人，水货太多了",
-        "author": "ccuuu",
-        "link": "https://bbs.byr.cn/article/WorkLife/1073293",
-        "pubDate": "Tue, 18 Apr 2017 16:25:30 GMT",
-        "description": "发信人: ccuuu (ccuuu), 信区: WorkLife<br/>标题: 建议大家以后不要招亚马逊出来的人，水货太多了<br/>发信站: 北邮人论坛 (Mon Apr 17 23:02:27 2017), 站内<br/><br/>而且级别越高越水<br/>另外一个规律是，级别高的水平高不高不一定，但是政治斗争玩心眼抢功甩锅会忽悠的水平都很高 <br/>--<br/>※ 修改:·ccuuu 于 Apr 18 08:00:38 2017 修改本文·[FROM: 103.77.56.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 103.77.56.*]<br/>"
-    },
-    {
-        "title": "176长腿妹子来征男盆友【王道】",
-        "author": "guoting979",
-        "link": "https://bbs.byr.cn/article/Friends/1801578",
-        "pubDate": "Tue, 18 Apr 2017 16:08:13 GMT",
-        "description": "发信人: guoting979 (血·蔷薇), 信区: Friends<br/>标题: 176长腿妹子来征男盆友【王道】<br/>发信站: 北邮人论坛 (Fri Apr7 12:38:27 2017), 站内<br/><br/>妹子：93年双子座，身高176（抱歉开始写矮了，妹子净身高176），脖子以下几乎都是腿，地道的东北妞，中国医科大学本科，研一。性格呢没有公主病不做作，有点小汉子又有些小脆弱，总之大大咧咧有点帅气有点儿二但是很可爱的感觉吧。毕竟太熟。不知道怎么形容，相处之中慢慢体会吧。<br/>妹子的要求：希望你的年龄在93-88年之间，喜欢成熟一些的呦，身高180以上，妹子实在太高了对身高要求也有些严格哈，有趣有责任感，对人生有起码的规划，最好现在在沈阳，未来一起计划。<br/>邮箱：cxixixixixixixic@163.com<br/><br /><a target=\"_blank\" href=\"/att/Friends/1801578/843\"><img border=\"0\" title=\"WechatIMG4.jpeg\" src=\"/att/Friends/1801578/843\" alt=\"WechatIMG4.jpeg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1801578/167468\"><img border=\"0\" title=\"WechatIMG5.jpeg\" src=\"/att/Friends/1801578/167468\" alt=\"WechatIMG5.jpeg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1801578/270574\"><img border=\"0\" title=\"WechatIMG6.jpeg\" src=\"/att/Friends/1801578/270574\" alt=\"WechatIMG6.jpeg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1801578/640634\"><img border=\"0\" title=\"WechatIMG7.jpeg\" src=\"/att/Friends/1801578/640634\" alt=\"WechatIMG7.jpeg\" class=\"resizeable\" /></a><br/>--<br/>※ 修改:·guoting979 于 Apr7 16:22:17 2017 修改本文·[FROM: 61.51.129.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 61.51.129.*]<br/>"
+        "title": "【出国+保研】清华大学计算机系网络中心DragonLab实验室招实习",
+        "author": "xiaohuangya",
+        "link": "https://bbs.byr.cn/article/StudyShare/175207",
+        "pubDate": "Tue, 18 Apr 2017 16:05:46 GMT",
+        "description": "发信人: xiaohuangya (LEt), 信区: StudyShare<br/>标题: 【出国+保研】清华大学计算机系网络中心DragonLab实验室招实习<br/>发信站: 北邮人论坛 (Wed Mar 29 12:36:29 2017), 站内<br/><br/>清华大学DragonLab实验室开始招收实习生<br/><br/>【实验室简介】<br/>清华大学计算机系网络中心DragonLab实验室开始招收本科实习生。实验室由王继龙教授领导，科研项目包括973项目、国家自然基金重大专项、发改委专项、科技部重大专项（在研）等。王继龙教授是网络运行和服务中心主任，管理清华大学校园网、CERNET、CNGI-CERNET2/6IX、TEIN的运营，目前拥有5名博士生和3名硕士生。实验室目前分为多个研究方向，包括网络测量和网络管理、网络空间测绘等领域。<br/><br/><br/>【实验室优势】<br/>实验室学术氛围比较浓厚，成果比较丰富。依托国家级项目，为同学创造良好的学术环境。王继龙老师为人和蔼可亲，说话幽默风趣，和他相处完全没有心理压力，是计算机系学生中公认的良心老师。实验室学长学姐们非常热情，乐于给新同学帮助与指导。实验室有比较庞大的数据资源，可用于日常科研（这是实验室很大的优势）。<br/><br/><br/>【基本要求】<br/>1.计算机、网络、电子、通信及相关专业学生；<br/>2.良好的工程能力与研究能力；<br/>3.积极努力，能够一周至少3天来实验室；<br/><br/>【收获】<br/>1.出国的同学获得老师推荐信，志于保研的同学有机会获得保研的机会；<br/>2.可参与实验室项目，获得较丰富的项目经历；<br/>3.指导完成本科毕设；<br/><br/>【联系方式】<br/>有意者请将简历发送到：dragonlab2017@163.com，规范命名学校-年级-姓名-意向，其中意向是出国还是保研。<br/><br/>同学们快到碗里来<img src=\"/img/ubb/ema/0.gif\" alt=\"ema0\" style=\"display:inline;border-style:none\"/><br/>--<br/><img src=\"/img/ubb/ema/0.gif\" alt=\"ema0\" style=\"display:inline;border-style:none\"/><img src=\"/img/ubb/ema/0.gif\" alt=\"ema0\" style=\"display:inline;border-style:none\"/><img src=\"/img/ubb/ema/0.gif\" alt=\"ema0\" style=\"display:inline;border-style:none\"/><br/>※ 修改:·xiaohuangya 于 Apr 19 00:07:34 2017 修改本文·[FROM: 166.111.132.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 166.111.132.*]<br/>"
     }
 ]
