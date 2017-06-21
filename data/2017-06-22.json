@@ -49,6 +49,13 @@
         "description": "发信人: cc19931002 (依旧), 信区: Java<br/>标题: 并发容器为什么一些读取操作也要锁<br/>发信站: 北邮人论坛 (Wed Jun 21 16:52:14 2017), 站内<br/><br/>其实这个问题可以拓展到并发读的时候为什么需要加锁？<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 118.144.137.*]<br/>"
     },
     {
+        "title": "SAP顾问转行做开发，Offer比较",
+        "author": "Zelda",
+        "link": "https://bbs.byr.cn/article/WorkLife/1079285",
+        "pubDate": "Wed, 21 Jun 2017 16:27:24 GMT",
+        "description": "发信人: Zelda (Zelda), 信区: WorkLife<br/>标题: SAP顾问转行做开发，Offer比较<br/>发信站: 北邮人论坛 (Mon Jun 19 23:30:21 2017), 站内<br/><br/>我2015年4月毕业，放弃了阿里和工行的offers，加入了SAP做实施顾问，从此便远离了技术。工作两年之后感觉对实施顾问行业失去了兴趣，想转行做开发，现在手头有这么几个水平不高的offers，求意见。<br/>1. Veeva Systems,一家做医药行业的CRM软件的美国公司，提供的职位主要是开发CRM产品，算是和我上一份工作有一定的相关性；<br/>2. 金山云，做PaaS层的Orchestration以及监控；<br/>3. 小米，做内部基础设施的监控告警平台。<br/>这三家给的package差不多，希望大家帮忙分析一下哪个offer对今后的发展更有利。<br/>ps.我这次找工作真的是切身感受到了“路窄”的痛苦，希望下次不要再遇到这种蛋疼的境遇。<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 123.114.104.*]<br/>"
+    },
+    {
         "title": "我犯罪了",
         "author": "fengwuxin",
         "link": "https://bbs.byr.cn/article/Picture/3182069",
@@ -61,12 +68,5 @@
         "link": "https://bbs.byr.cn/article/GoAbroad/353568",
         "pubDate": "Wed, 21 Jun 2017 18:31:47 GMT",
         "description": "发信人: yangta1995 (yangta1995), 信区: GoAbroad<br/>标题: 【全球寻人】97届北邮毕业生 佘跃华<br/>发信站: 北邮人论坛 (Wed Jun 21 01:39:22 2017), 站内<br/><br/><pre class=\"markdown\"># 【全球寻人】佘跃华\n### 佘跃华,97届北邮毕业生，于2012年开始与家人失去联系，希望有线索的北邮人们帮助寻人！\n\n佘跃华，江苏淮安人。1993年入学北邮信息系统管理专业，1997年本科毕业，淮安电信公司工作后，1999年考回北邮读研。2001年赴美国密西西比大学留学，之后履历不详。2012年后与家中不再有联系，当时住址是[118 Henderson Ave, Buffalo, NY, USA 14217]。现在她的家人很着急，委托本人寻找线索，找回女儿。请有线索的师兄师姐们（特别是97届毕业生们）联系 杨洁女士（手机 15305238488），或在下方跟帖或私信。感恩不尽！</pre><br/><br/>佘跃华照片如下（2004年左右照片）<br/><a target=\"_blank\" href=\"http://img.027cgb.cn/20170611/20176207811590026209.jpg\"><img border=\"0\" title=\"单击此在新窗口浏览图片\" src=\"http://img.027cgb.cn/20170611/20176207811590026209.jpg\" alt=\"http://img.027cgb.cn/20170611/20176207811590026209.jpg\" class=\"resizeable\" /></a><br/><a target=\"_blank\" href=\"http://img.027cgb.cn/20170611/201762047601795864.jpg\"><img border=\"0\" title=\"单击此在新窗口浏览图片\" src=\"http://img.027cgb.cn/20170611/201762047601795864.jpg\" alt=\"http://img.027cgb.cn/20170611/201762047601795864.jpg\" class=\"resizeable\" /></a><br/><a target=\"_blank\" href=\"http://img.027cgb.cn/20170611/201762012563152219.jpg\"><img border=\"0\" title=\"单击此在新窗口浏览图片\" src=\"http://img.027cgb.cn/20170611/201762012563152219.jpg\" alt=\"http://img.027cgb.cn/20170611/201762012563152219.jpg\" class=\"resizeable\" /></a><br/><a target=\"_blank\" href=\"http://img.027cgb.cn/20170611/2017620344946076822.jpg\"><img border=\"0\" title=\"单击此在新窗口浏览图片\" src=\"http://img.027cgb.cn/20170611/2017620344946076822.jpg\" alt=\"http://img.027cgb.cn/20170611/2017620344946076822.jpg\" class=\"resizeable\" /></a><br/><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.205.12.*]<br/>"
-    },
-    {
-        "title": "实习求建议",
-        "author": "wangmaomao",
-        "link": "https://bbs.byr.cn/article/WorkLife/1079352",
-        "pubDate": "Wed, 21 Jun 2017 16:22:58 GMT",
-        "description": "发信人: wangmaomao (【意涵团】求实习求offer), 信区: WorkLife<br/>标题: 实习求建议<br/>发信站: 北邮人论坛 (Wed Jun 21 09:26:52 2017), 站内<br/><br/>小弟现在在小米实习，java后台岗，这边leader人超级nice，技术也超级牛逼。团队氛围也很好，快两个月的实习楼主学到了不少东西。<br/>但是楼主将来想留北京，家里想让拿户口，楼主也是从研一开始就奔着找个有户口的工作去的。现在有个电信研究院的实习offer，和这边leader聊了一下人也超级nice，小姐姐人真的很好。她说这边也不一定保证能转正，转正有一定几率有户口。小米那边转正问题应该不大，户口也是不保证。<br/>求问论坛各位大佬，小弟该选择哪家公司，或者是先实习着，等着秋招再去找户口稳的工作？<br/>还望解答，万分感谢！<br/>--<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.108.65.*]<br/>"
     }
 ]
