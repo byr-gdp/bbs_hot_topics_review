@@ -49,18 +49,11 @@
         "description": "发信人: learner (learner ), 信区: AimGraduate<br/>标题: 张宇十八讲和李永乐全书求教<br/>发信站: 北邮人论坛 (Tue Jul 18 00:15:08 2017), 站内<br/><br/>看了一遍张宇的高数十八讲，感觉技巧性很多，听其他研友讲，李永乐的全书比较偏重思路，很后悔没最开始看李永乐。所以请问考过研的学长学姐们，我现在是趁着十八讲还没怎么忘继续刷一遍十八讲呢，还是看李永乐的全书呢？求指教～<br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 61.51.255.*]<br/>"
     },
     {
-        "title": "刚才路上一大妈找我借钱",
-        "author": "jxsrlsl1234",
-        "link": "https://bbs.byr.cn/article/Talking/5929106",
-        "pubDate": "Mon, 17 Jul 2017 17:10:27 GMT",
-        "description": "发信人: jxsrlsl1234 (jxsrlsl1234), 信区: Talking<br/>标题: 刚才路上一大妈找我借钱<br/>发信站: 北邮人论坛 (Mon Jul 17 21:12:58 2017), 站内<br/><br/>她说她不是北邮的是清华的，然后没带手机，想找我借4块六毛钱，其实看她那样子我是相信她说的是真的。可是。。。。<br/><br/>我这人吧真的身上不喜欢带现金，所以我就直接说我身上没带现金。<br/><br/>我去然后那大妈的脸色立马沉下来了，甩了一句没有算了就往前走了。。<br/><br/>我了个日，我借你钱我是应该的啊？啊？我借不借钱给你是我的事儿你摔什么脸啊，借钱的时候客客气气，我没带钱你特么就这样啊。。。<br/><br/>幸好没借。。<br/><br/>你不去做演员都可惜。。。我是第一次看到翻脸那么快的。。。<br/><br/><a target=\"_blank\" href=\"http://iwoyou.duapp.com\">通过『我邮2.0』发布</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 114.242.250.*]<br/>"
-    },
-    {
-        "title": "【问题】阿里有哪个部门有北京前端岗位的坑呀",
-        "author": "yaojideSH",
-        "link": "https://bbs.byr.cn/article/Job/1901163",
-        "pubDate": "Mon, 17 Jul 2017 17:29:19 GMT",
-        "description": "发信人: yaojideSH (墨年), 信区: Job<br/>标题: 【问题】阿里有哪个部门有北京前端岗位的坑呀<br/>发信站: 北邮人论坛 (Mon Jul 17 01:16:56 2017), 站内<br/><br/>如题，比较想留在北京工作，想知道阿里哪个部门北京有招前端岗的呢～麻烦各位学长学姐透露一下，想定向投一下~<br/>之前有朋友投内推地点选的北京，结果接到的杭州电话，过程中没涉及到正式面试，先讨论的工作地点的问题，本以为可以协商一下，结果挂了电话就已回绝了，所以比较担忧<br/><br/><a target=\"_blank\" href=\"http://guiyou.wangx.in\">发自「贵邮」</a><br/>--<br/>※ 修改:·yaojideSH 于 Jul 17 01:18:37 2017 修改本文·[FROM: 10.204.21.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 223.104.3.*]<br/>"
+        "title": "有在校医院激光治疗过跖疣的吗",
+        "author": "yanernanfei",
+        "link": "https://bbs.byr.cn/article/Health/204955",
+        "pubDate": "Mon, 17 Jul 2017 17:36:09 GMT",
+        "description": "发信人: yanernanfei (红叶), 信区: Health<br/>标题: 有在校医院激光治疗过跖疣的吗<br/>发信站: 北邮人论坛 (Mon Jul 17 15:57:23 2017), 站内<br/><br/>rt<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 114.255.182.*]<br/>"
     },
     {
         "title": "非常困惑，头文件中函数重复定义的问题，求解疑",
@@ -68,5 +61,12 @@
         "link": "https://bbs.byr.cn/article/CPP/95793",
         "pubDate": "Mon, 17 Jul 2017 16:31:28 GMT",
         "description": "发信人: byr10086 (nieng), 信区: CPP<br/>标题: 非常困惑，头文件中函数重复定义的问题，求解疑<br/>发信站: 北邮人论坛 (Mon Jul 17 23:23:20 2017), 站内<br/><br/>问题是这样的：<br/>在一个头文件中定义了一个类和一个函数（不是类的成员函数），并且使用了头文件保护符（#ifndef...#define...#endif...)<br/>另有两个.cc文件都include了该头文件，当把这两个.cc文件一起编译时，会报函数重复定义的错误，但没有类重复定义的错误。<br/><br/>不明白为函数会有重复定义的错误，而类没有重复定义的错误，想请教一下大家，万谢！！！<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 218.30.116.*]<br/>"
+    },
+    {
+        "title": "刚才路上一大妈找我借钱",
+        "author": "jxsrlsl1234",
+        "link": "https://bbs.byr.cn/article/Talking/5929106",
+        "pubDate": "Mon, 17 Jul 2017 17:10:27 GMT",
+        "description": "发信人: jxsrlsl1234 (jxsrlsl1234), 信区: Talking<br/>标题: 刚才路上一大妈找我借钱<br/>发信站: 北邮人论坛 (Mon Jul 17 21:12:58 2017), 站内<br/><br/>她说她不是北邮的是清华的，然后没带手机，想找我借4块六毛钱，其实看她那样子我是相信她说的是真的。可是。。。。<br/><br/>我这人吧真的身上不喜欢带现金，所以我就直接说我身上没带现金。<br/><br/>我去然后那大妈的脸色立马沉下来了，甩了一句没有算了就往前走了。。<br/><br/>我了个日，我借你钱我是应该的啊？啊？我借不借钱给你是我的事儿你摔什么脸啊，借钱的时候客客气气，我没带钱你特么就这样啊。。。<br/><br/>幸好没借。。<br/><br/>你不去做演员都可惜。。。我是第一次看到翻脸那么快的。。。<br/><br/><a target=\"_blank\" href=\"http://iwoyou.duapp.com\">通过『我邮2.0』发布</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 114.242.250.*]<br/>"
     }
 ]
