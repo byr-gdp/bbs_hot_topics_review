@@ -21,18 +21,18 @@
         "description": "发信人: fuxuemingzhu (负雪明烛||【意涵团】【若晨团】苦研僧), 信区: Python<br/>标题: 北邮教务系统设计的用心了…<br/>发信站: 北邮人论坛 (Fri Jul 21 23:53:40 2017), 站内<br/><br/><font size=\"3\">我邮研究生教务系统的发爬虫设计也真是别开生面了……<br/><br/>首先，你以为下面这个界面就只有账号密码？<br/><br/><br /><a target=\"_blank\" href=\"/att/Python/18367/1236\"><img border=\"0\" title=\"\" src=\"/att/Python/18367/1236\" alt=\"\" class=\"resizeable\" /></a><br/><br/>Naive!<br/><br/>其实密码框下面藏了一个输入框，这是一段服务器发过来的很长的字符串，这个如果你找不到是绝对不会登录成功的！<img src=\"/img/ubb/emc/8.gif\" alt=\"emc8\" style=\"display:inline;border-style:none\"/><br/><br/><br /><a target=\"_blank\" href=\"/att/Python/18367/868080\"><img border=\"0\" title=\"\" src=\"/att/Python/18367/868080\" alt=\"\" class=\"resizeable\" /></a><br/><br/>哈哈哈哈，找到了这个隐藏的字符串就万事大吉了？激动吧？<br/><br/>教务系统早就在前面又给你挖好坑了……<br/><br/><br /><a target=\"_blank\" href=\"/att/Python/18367/1736387\"><img border=\"0\" title=\"\" src=\"/att/Python/18367/1736387\" alt=\"\" class=\"resizeable\" /></a><br/><br/>提交登录的时候还需要带上一个手机号！150开头的！貌似是江苏的！<img src=\"/img/ubb/emc/5.gif\" alt=\"emc5\" style=\"display:inline;border-style:none\"/><br/><br/>果然一环套一环啊，信息黄埔信息黄埔~<br/><br/>教务系统隐藏的秘密都被你挖出来就没办法了？那就从工作量上难为你！<br/><br/>提交用户名密码之后，网页会跳转三次！每次跳转之后的页面需要上面一个页面发放的通行信息才行……<br/><br/>也就是说要写四段网络请求，才能拿到教务系统主界面的信息。。<br/><br/>需要爬其他信息有用的，还要再写请求。。<img src=\"/img/ubb/ema/8.gif\" alt=\"ema8\" style=\"display:inline;border-style:none\"/><br/><br/>大家喜欢钻研的可以当做python challenge去做下试试，代码我就不贴了。<br/><br/>整了很久之后，脑子里全是下面这句话：<br/><br/><br /><a target=\"_blank\" href=\"/att/Python/18367/1746908\"><img border=\"0\" title=\"\" src=\"/att/Python/18367/1746908\" alt=\"\" class=\"resizeable\" /></a></font><br/>--<br/>※ 修改:·fuxuemingzhu 于 Jul 22 01:25:41 2017 修改本文·[FROM: 10.210.34.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 2001:da8:215:da11:a1b5:78f0:71b3:*]<br/>"
     },
     {
-        "title": "约球友",
-        "author": "memoryofbupt",
-        "link": "https://bbs.byr.cn/article/Billiards/27976",
-        "pubDate": "Fri, 21 Jul 2017 18:19:19 GMT",
-        "description": "发信人: memoryofbupt (文刀&amp;月月鳥), 信区: Billiards<br/>标题: 约球友<br/>发信站: 北邮人论坛 (Sat Jul 22 00:03:15 2017), 站内<br/><br/>暑假在校，闲时娱乐，喜爱台球，技术中等，有意可约，妹子优先，包吃管喝，还可教球微信号13203963037<br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 117.136.0.*]<br/>"
-    },
-    {
         "title": "逛知乎逛到一故事，我邮师兄的操作很厉害啊",
         "author": "diejin",
         "link": "https://bbs.byr.cn/article/Picture/3186546",
         "pubDate": "Fri, 21 Jul 2017 19:03:01 GMT",
         "description": "发信人: diejin (陌归), 信区: Picture<br/>标题: 逛知乎逛到一故事，我邮师兄的操作很厉害啊<br/>发信站: 北邮人论坛 (Fri Jul 21 21:21:05 2017), 站内<br/><br/>哈哈哈哈哈<br/><br/><a target=\"_blank\" href=\"http://iwoyou.duapp.com\">通过『我邮2.0』发布</a><br/>--<br/><br/>※ 修改:·diejin 于 Jul 21 21:21:05 2017 修改本文·[FROM: 10.215.20.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.215.20.*]<br/><br /><a target=\"_blank\" href=\"/att/Picture/3186546/368\"><img border=\"0\" title=\"1500643246905.jpg\" src=\"/att/Picture/3186546/368\" alt=\"1500643246905.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Picture/3186546/107434\"><img border=\"0\" title=\"1500643253109.jpg\" src=\"/att/Picture/3186546/107434\" alt=\"1500643253109.jpg\" class=\"resizeable\" /></a>"
+    },
+    {
+        "title": "约球友",
+        "author": "memoryofbupt",
+        "link": "https://bbs.byr.cn/article/Billiards/27976",
+        "pubDate": "Fri, 21 Jul 2017 18:19:19 GMT",
+        "description": "发信人: memoryofbupt (文刀&amp;月月鳥), 信区: Billiards<br/>标题: 约球友<br/>发信站: 北邮人论坛 (Sat Jul 22 00:03:15 2017), 站内<br/><br/>暑假在校，闲时娱乐，喜爱台球，技术中等，有意可约，妹子优先，包吃管喝，还可教球微信号13203963037<br/>--<br/><br/>※ 来源:·<a target=\"_blank\" href=\"http://developers.byr.cn/mobile\">北邮人论坛手机客户端</a> bbs.byr.cn·[FROM: 117.136.0.*]<br/>"
     },
     {
         "title": "关于暑假临时住宿的简要回复",
@@ -56,17 +56,17 @@
         "description": "发信人: jml145 (睡神来了了了了了), 信区: Friends<br/>标题: 【有王道】帮闺蜜征友（2）<br/>发信站: 北邮人论坛 (Mon Jul 17 13:48:57 2017), 站内<br/><br/>怪楼主美图照片放太多啦，立即整改！<img src=\"/img/ubb/emc/7.gif\" alt=\"emc7\" style=\"display:inline;border-style:none\"/><br/>（留一张美图的，楼主好喜欢<img src=\"/img/ubb/emc/38.gif\" alt=\"emc38\" style=\"display:inline;border-style:none\"/>）<br/><br/>-------------我是分割线-----------<br/>再推荐一个闺蜜哈，闺蜜情况如下：<br/>a.92年出生，现在研二，打算北邮读博<br/>b.身高166cm，体重50kg，颜值如图所示~<br/>c.希望男生身高180cm+<br/><br/>有意者发自我介绍到闺蜜邮箱qinyanjun@ict.ac.cn<br/>（自我介绍越详细越有诚意哦~）<br/><br/>--<br/><br /><a target=\"_blank\" href=\"/att/Friends/1820743/751\"><img border=\"0\" title=\"1.jpg\" src=\"/att/Friends/1820743/751\" alt=\"1.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1820743/66822\"><img border=\"0\" title=\"2.jpg\" src=\"/att/Friends/1820743/66822\" alt=\"2.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1820743/117789\"><img border=\"0\" title=\"3.jpg\" src=\"/att/Friends/1820743/117789\" alt=\"3.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1820743/192635\"><img border=\"0\" title=\"4.jpg\" src=\"/att/Friends/1820743/192635\" alt=\"4.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1820743/233126\"><img border=\"0\" title=\"5.jpg\" src=\"/att/Friends/1820743/233126\" alt=\"5.jpg\" class=\"resizeable\" /></a><br /><a target=\"_blank\" href=\"/att/Friends/1820743/285154\"><img border=\"0\" title=\"7.jpg\" src=\"/att/Friends/1820743/285154\" alt=\"7.jpg\" class=\"resizeable\" /></a><br/><br /><a target=\"_blank\" href=\"/att/Friends/1820743/402529\"><img border=\"0\" title=\"11.jpg\" src=\"/att/Friends/1820743/402529\" alt=\"11.jpg\" class=\"resizeable\" /></a><br/>※ 修改:·jml145 于 Jul 21 14:03:17 2017 修改本文·[FROM: 159.226.43.*]<br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 159.226.43.*]<br/>"
     },
     {
+        "title": "平行世界的高达一年战争战报（0）--介绍和初设",
+        "author": "ak3288342",
+        "link": "https://bbs.byr.cn/article/BoardGame/55773",
+        "pubDate": "Fri, 21 Jul 2017 17:10:43 GMT",
+        "description": "发信人: ak3288342 (萌萌的惇哥), 信区: BoardGame<br/>标题: 平行世界的高达一年战争战报（0）--介绍和初设<br/>发信站: 北邮人论坛 (Mon Jul 17 23:29:01 2017), 站内<br/><br/>恩我又来了，这次不管有没有人看都记录下来，给自己看好了。<br/>也不需要太详细，写个流水账。<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.205.18.*]<br/>"
+    },
+    {
         "title": "【农药】",
         "author": "ztz",
         "link": "https://bbs.byr.cn/article/LOL/24547",
         "pubDate": "Fri, 21 Jul 2017 18:06:35 GMT",
         "description": "发信人: ztz (ztz), 信区: LOL<br/>标题: 【农药】<br/>发信站: 北邮人论坛 (Thu Jul6 20:43:16 2017), 站内<br/><br/>求一个钻石队伍一起开黑上王者，开语音，多交流，<br/><br/>单排到钻4就不太行了，路人太不稳定，钻石的坑货都太多了。。。一天打十把能上2星就是万幸了<br/><br/>本人擅长肉盾，射手，辅助，求队友啊~~~~<br/><br/><br/>微信：MR_ZTZ1992<br/><br/>欢迎骚扰~~~人多的话可以建个群<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.108.95.*]<br/>"
-    },
-    {
-        "title": "大家都倾向于用14寸还是15寸的笔记本呢？",
-        "author": "wangholmes",
-        "link": "https://bbs.byr.cn/article/Notebook/171717",
-        "pubDate": "Fri, 21 Jul 2017 16:54:22 GMT",
-        "description": "发信人: wangholmes (Heibanbao), 信区: Notebook<br/>标题: 大家都倾向于用14寸还是15寸的笔记本呢？<br/>发信站: 北邮人论坛 (Fri Jul 21 00:02:42 2017), 站内<br/><br/>最近在看thinkpad t470和570，拿不定主意。。。<br/><br/><a target=\"_blank\" href=\"http://iwoyou.duapp.com\">通过『我邮2.0』发布</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 114.242.249.*]<br/>"
     }
 ]
