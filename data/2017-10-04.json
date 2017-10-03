@@ -42,6 +42,13 @@
         "description": "发信人: flan (蜂鸟), 信区: Food<br/>标题: 哪里可以吃螃蟹？<br/>发信站: 北邮人论坛 (Mon Oct2 23:37:37 2017), 站内<br/><br/>最近是不是到了吃螃蟹的季节，好像出去吃一波，求推荐<img src=\"/img/ubb/ema/5.gif\" alt=\"ema5\" style=\"display:inline;border-style:none\"/><br/><br/><a target=\"_blank\" href=\"http://iwoyou.duapp.com\">通过『我邮2.0』发布</a><br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.203.7.*]<br/>"
     },
     {
+        "title": "英国诺丁汉大学(QS世界75名)招收 2018级 计算机 博士研究生",
+        "author": "Cicity",
+        "link": "https://bbs.byr.cn/article/GoAbroad/355186",
+        "pubDate": "Tue, 03 Oct 2017 19:45:59 GMT",
+        "description": "发信人: Cicity (Cici@_~), 信区: GoAbroad<br/>标题: 英国诺丁汉大学(QS世界75名)招收 2018级 计算机 博士研究生<br/>发信站: 北邮人论坛 (Tue Oct3 22:54:51 2017), 站内<br/><br/>The School of Computer Science, University of Nottingham, UK has an open fully funded PhD position in the area of Information Retrieval to start on October 2018.<br/>You will be supervised by Dr. Ke Zhou (<a target=\"_blank\" href=\"https://sites.google.com/site/keadamzhou/\">https://sites.google.com/site/keadamzhou/</a>).<br/><br/>The scholarship covers the tuition fee and full living stipend.<br/>The position is open to UK, EU and international students.<br/>If you intend to apply scholarships from the China Scholarships Council (CSC), please contact me directly.<br/><br/>*Topics*: information retrieval, user modeling, evaluation, machine learning, data/text mining.<br/><br/>*Requirements*: <br/>- Candidates must have a good Masters Degree (or a BSc Degree with excellent records) in Computer Science or related subjects. <br/>- Candidates must be confident in some of these areas: information retrieval, machine learning, statistics, have excellent programming skills, be fluent in English and possess good communication skills.<br/>- Previous experience in research and a track record of publications is preferable.<br/><br/>*Start date*: 01/10/2018 (negotiable)<br/>*Duration*: 3+1 years<br/><br/>*Application*: Interested candidates should send a CV, a motivation letter (max 1 page), a research proposal (max 3 pages) and academic transcripts to Dr. Ke Zhou (ke DOT zhou AT nottingham DOT ac DOT uk). Please use your name and \"IR PhD Position\" as your email subject (e.g. \"Steve Johns: IR PhD Position\").<br/><br/>####################################<br/>英国诺丁汉大学(QS世界75名)招收 2018级 计算机 博士研究生<br/><br/>研究课题：信息检索、数据挖掘、机器学习、用户建模<br/><br/>实验室和工业界Yahoo、Google和Facebook有着紧密的合作关系。<br/><br/>欢迎有研究热情的同学联系申请！想申请CSC奖学金的同学也可以直接联系。<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 128.243.18.*]<br/>"
+    },
+    {
         "title": "我真没撩妹",
         "author": "xiaodaimeng",
         "link": "https://bbs.byr.cn/article/Picture/3194819",
@@ -61,12 +68,5 @@
         "link": "https://bbs.byr.cn/article/Home/108563",
         "pubDate": "Tue, 03 Oct 2017 16:07:38 GMT",
         "description": "发信人: ml3615556 (Andy), 信区: Home<br/>标题: 【问题】现在去杭州买商住房有必要吗？<br/>发信站: 北邮人论坛 (Tue Oct3 23:35:10 2017), 站内<br/><br/>RT 明年毕业，暂时没户口<br/><br/>现在去买个60左右的商住房有必要吗？<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 218.72.29.*]<br/>"
-    },
-    {
-        "title": "树莓派如何在没有屏幕的情况下连接WiFi？",
-        "author": "Gaojianli",
-        "link": "https://bbs.byr.cn/article/Linux/156001",
-        "pubDate": "Tue, 03 Oct 2017 16:31:06 GMT",
-        "description": "发信人: Gaojianli (高渐离), 信区: Linux<br/>标题: 树莓派如何在没有屏幕的情况下连接WiFi？<br/>发信站: 北邮人论坛 (Tue Oct3 20:56:53 2017), 站内<br/><br/>如题，树莓派3B，安装了Debian 9.1 64位，没有屏幕，现在想连接到mobile，但是mobile是802.1x的，以前没用过。。请问诸位wpa_supplicant.conf应该怎么写？从Android上copy过去的好像不能用。<br/>--<br/><br/>※ 来源:·北邮人论坛 <a target=\"_blank\" href=\"http://bbs.byr.cn\">http://bbs.byr.cn</a>·[FROM: 10.21.192.*]<br/>"
     }
 ]
